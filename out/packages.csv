@@ -1,0 +1,1005 @@
+﻿Package Name,Title,CRAN,Abstract,Version,Depends,Imports,Suggests
+abind,abind: Combine Multidimensional Arrays,OK,"Combine multidimensional arrays into a single array.
+  This is a generalization of 'cbind' and 'rbind'.  Works with
+  vectors, matrices, and higher-dimensional arrays.  Also
+  provides functions 'adrop', 'asub', and 'afill' for manipulating,
+  extracting and replacing data in arrays.",1.4-5,R (≥ 1.5.0),"methods, utils",NA
+acepack,acepack: ACE and AVAS for Selecting Multiple Regression Transformations,OK,"Two nonparametric methods for multiple regression transform selection are provided.
+  The first, Alternative Conditional Expectations (ACE), 
+  is an algorithm to find the fixed point of maximal
+  correlation, i.e. it finds a set of transformed response variables that maximizes R^2
+  using smoothing functions [see Breiman, L., and J.H. Friedman. 1985. ""Estimating Optimal Transformations
+  for Multiple Regression and Correlation"". Journal of the American Statistical Association.
+  80:580-598. <doi:10.1080/01621459.1985.10478157>].
+  Also included is the Additivity Variance Stabilization (AVAS) method which works better than ACE when
+  correlation is low [see Tibshirani, R.. 1986. ""Estimating Transformations for Regression via Additivity
+  and Variance Stabilization"". Journal of the American Statistical Association. 83:394-405. 
+  <doi:10.1080/01621459.1988.10478610>]. A good introduction to these two methods is in chapter 16 of
+  Frank Harrel's ""Regression Modeling Strategies"" in the Springer Series in Statistics.",1.4.1,NA,NA,testthat
+ade4,"ade4: Analysis of Ecological Data: Exploratory and Euclidean Methods
+in Environmental Sciences",OK,"Tools for multivariate data analysis. Several methods are provided for the analysis (i.e., ordination) of one-table (e.g., principal component analysis, correspondence analysis), two-table (e.g., coinertia analysis, redundancy analysis), three-table (e.g., RLQ analysis) and K-table (e.g., STATIS, multiple coinertia analysis). The philosophy of the package is described in Dray and Dufour (2007) <doi:10.18637/jss.v022.i04>.",1.7-11,R (≥ 2.10),"graphics, grDevices, methods, stats, utils, MASS","ade4TkGUI, adegraphics, adephylo, ape, CircStats, deldir, lattice, pixmap, sp, spdep, splancs, waveslim"
+AER,AER: Applied Econometrics with R,OK,"Functions, data sets, examples, demos, and vignettes for the book
+             Christian Kleiber and Achim Zeileis (2008),
+	     Applied Econometrics with R, Springer-Verlag, New York.
+	     ISBN 978-0-387-77316-2. (See the vignette ""AER"" for a package overview.)",1.2-5,"R (≥ 2.13.0), car (≥ 2.0-19), lmtest, sandwich, survival (≥
+2.37-5), zoo","stats, Formula (≥ 0.2-0)","boot, dynlm, effects, fGarch, forecast, foreign, ineq, KernSmooth, lattice, longmemo, MASS, mlogit, nlme, nnet, np, plm, pscl, quantreg, rgl, ROCR, rugarch, sampleSelection, scatterplot3d, strucchange, systemfit, truncreg, tseries, urca, vars"
+AlgDesign,AlgDesign: Algorithmic Experimental Design,OK,"Algorithmic experimental designs. Calculates exact and
+        approximate theory experimental designs for D,A, and I
+        criteria. Very large designs may be created. Experimental
+        designs may be blocked or blocked designs created from a
+        candidate list, using several criteria.  The blocking can be
+        done when whole and within plot factors interact.",1.1-7.3,NA,NA,NA
+Amelia,Amelia: A Program for Missing Data,OK,"A tool that ""multiply imputes"" missing data in a single cross-section
+  (such as a survey), from a time series (like variables collected for
+  each year in a country), or from a time-series-cross-sectional data
+  set (such as collected by years for each of several countries).
+  Amelia II implements our bootstrapping-based algorithm that gives
+  essentially the same answers as the standard IP or EMis approaches,
+  is usually considerably faster than existing approaches and can
+  handle many more variables.  Unlike Amelia I and other statistically
+  rigorous imputation software, it virtually never crashes (but please
+  let us know if you find to the contrary!).  The program also
+  generalizes existing approaches by allowing for trends in time series
+  across observations within a cross-sectional unit, as well as priors
+  that allow experts to incorporate beliefs they have about the values
+  of missing cells in their data.  Amelia II also includes useful
+  diagnostics of the fit of multiple imputation models.  The program
+  works from the R command line or via a graphical user interface that
+  does not require users to know R.",1.7.5,"R (≥ 3.0.2), Rcpp (≥ 0.11)","foreign, utils, grDevices, graphics, methods, stats","tcltk, Zelig"
+aplpack,"aplpack: Another Plot Package: 'Bagplots', 'Iconplots', 'Summaryplots',
+Slider Functions and Others",OK,"Some functions for drawing some special plots:
+   The function 'bagplot' plots a bagplot,
+   'faces' plots chernoff faces,
+   'iconplot' plots a representation of a frequency table or a data matrix,
+   'plothulls' plots hulls of a bivariate data set,
+   'plotsummary' plots a graphical summary of a data set,
+   'puticon' adds icons to a plot,
+   'skyline.hist' combines several histograms of a one dimensional data set in one plot,
+   'slider' functions supports some interactive graphics,
+   'spin3R' helps an inspection of a 3-dim point cloud,
+   'stem.leaf' plots a stem and leaf plot,
+   'stem.leaf.backback' plots back-to-back versions of stem and leaf plot.",1.3.2,"R (≥ 3.0.0), tcltk",NA,"tkrplot, jpeg, png, splines, utils"
+arm,"arm: Data Analysis Using Regression and Multilevel/Hierarchical
+Models",OK,"Functions to accompany A. Gelman and J. Hill, Data Analysis Using Regression and Multilevel/Hierarchical Models, Cambridge University Press, 2007.",1.10-1,"R (≥ 3.1.0), MASS, Matrix (≥ 1.0), stats, lme4 (≥ 1.0)","abind, coda, graphics, grDevices, methods, nlme, utils",NA
+arules,arules: Mining Association Rules and Frequent Itemsets,OK,"Provides the infrastructure for representing,
+    manipulating and analyzing transaction data and patterns (frequent
+    itemsets and association rules). Also provides
+    C implementations of the association mining algorithms Apriori and Eclat.",1.6-1,"R (≥ 3.4.0), Matrix (≥ 1.2-0)","stats, methods, graphics, utils","pmml, XML, arulesViz, testthat"
+assertthat,assertthat: Easy Pre and Post Assertions,OK,"assertthat is an extension to stopifnot() that makes it
+    easy to declare the pre and post conditions that you code should
+    satisfy, while also producing friendly error messages so that your
+    users know what they've done wrong.",0.2.0,NA,tools,testthat
+backports,backports: Reimplementations of Functions Introduced Since R-3.0.0,OK,"Implementations of functions which have been introduced in
+    R since version 3.0.0. The backports are conditionally exported which
+    results in R resolving the function names to the version shipped with R (if
+    available) and uses the implemented backports as fallback. This way package
+    developers can make use of the new functions without worrying about the
+    minimum required R version.",1.1.2,R (≥ 3.0.0),utils,NA
+base64enc,base64enc: Tools for base64 encoding,OK,This package provides tools for handling base64 encoding. It is more flexible than the orphaned base64 package.,0.1-3,R (≥ 2.9.0),NA,NA
+bayesm,bayesm: Bayesian Inference for Marketing/Micro-Econometrics,OK,"Covers many important models used
+  in marketing and micro-econometrics applications. 
+  The package includes:
+  Bayes Regression (univariate or multivariate dep var),
+  Bayes Seemingly Unrelated Regression (SUR),
+  Binary and Ordinal Probit,
+  Multinomial Logit (MNL) and Multinomial Probit (MNP),
+  Multivariate Probit,
+  Negative Binomial (Poisson) Regression,
+  Multivariate Mixtures of Normals (including clustering),
+  Dirichlet Process Prior Density Estimation with normal base,
+  Hierarchical Linear Models with normal prior and covariates,
+  Hierarchical Linear Models with a mixture of normals prior and covariates,
+  Hierarchical Multinomial Logits with a mixture of normals prior
+     and covariates,
+  Hierarchical Multinomial Logits with a Dirichlet Process prior and covariates,
+  Hierarchical Negative Binomial Regression Models,
+  Bayesian analysis of choice-based conjoint data,
+  Bayesian treatment of linear instrumental variables models,
+  Analysis of Multivariate Ordinal survey data with scale
+     usage heterogeneity (as in Rossi et al, JASA (01)),
+  Bayesian Analysis of Aggregate Random Coefficient Logit Models as in BLP (see
+  Jiang, Manchanda, Rossi 2009)
+  For further reference, consult our book, Bayesian Statistics and
+  Marketing by Rossi, Allenby and McCulloch (Wiley 2005) and Bayesian Non- and Semi-Parametric
+  Methods and Applications (Princeton U Press 2014).",3.1-0.1,R (≥ 3.2.0),"Rcpp (≥ 0.12.0), utils, stats, graphics, grDevices","knitr, rmarkdown"
+bdsmatrix,bdsmatrix: Routines for Block Diagonal Symmetric Matrices,OK,"This is a special case of sparse matrices, used by coxme. ",1.3-3,"methods, R (≥ 2.0.0)",NA,NA
+Benchmarking,Benchmarking: Benchmark and Frontier Analysis Using DEA and SFA,OK,"Methods for frontier
+	analysis, Data Envelopment Analysis (DEA), under different
+	technology assumptions (fdh, vrs, drs, crs, irs, add/frh, and fdh+),
+	and using different efficiency measures (input based, output based,
+	hyperbolic graph, additive, super, and directional efficiency). Peers
+	and slacks are available, partial price information can be included,
+	and optimal cost, revenue and profit can be calculated. Evaluation of
+	mergers is also supported.  Methods for graphing the technology sets
+	are also included. There is also support comparative methods based
+	on Stochastic Frontier Analyses (SFA). In general, the methods can be
+	used to solve not only standard models, but also many other model
+	variants. It complements the book, Bogetoft and Otto,
+	Benchmarking with DEA, SFA, and R, Springer-Verlag, 2011, but can of
+	course also be used as a stand-alone package.",0.27,"lpSolveAPI, ucminf","methods, stats, graphics, grDevices",NA
+BH,BH: Boost C++ Header Files,OK,"Boost provides free peer-reviewed portable C++ source 
+ libraries.  A large part of Boost is provided as C++ template code
+ which is resolved entirely at compile-time without linking.  This 
+ package aims to provide the most useful subset of Boost libraries 
+ for template use among CRAN package. By placing these libraries in 
+ this package, we offer a more efficient distribution system for CRAN 
+ as replication of this code in the sources of other packages is 
+ avoided. As of release 1.65.0-1, the following Boost libraries are
+ included: 'algorithm' 'align' 'any' 'atomic' 'bimap' 'bind'
+ 'circular_buffer' 'compute' 'concept' 'config' 'container' 'date'_'time'
+ 'detail' 'dynamic_bitset' 'exception' 'filesystem' 'flyweight' 'foreach'
+ 'functional' 'fusion' 'geometry' 'graph' 'heap' 'icl' 'integer'
+ 'interprocess' 'intrusive' 'io' 'iostreams' 'iterator' 'math' 'move' 'mpl'
+ 'multiprcecision' 'numeric' 'pending' 'phoenix' 'preprocessor'
+ 'propery_tree' 'random' 'range' 'scope_exit' 'smart_ptr' 'sort' 'spirit'
+ 'tuple' 'type_traits' 'typeof' 'unordered' 'utility' 'uuid'.",1.66.0-1,NA,NA,NA
+bit,bit: A Class for Vectors of 1-Bit Booleans,OK,"True boolean datatype (no NAs), 
+  coercion from and to logicals, integers and integer subscripts; 
+  fast boolean operators and fast summary statistics. 
+  With 'bit' vectors you can store true binary booleans {FALSE,TRUE} at the 
+  expense of 1 bit only, on a 32 bit architecture this means factor 32 less 
+  RAM and ~ factor 32 more speed on boolean operations. Due to overhead of 
+  R calls, actual speed gain depends on the size of the vector: expect gains 
+  for vectors of size > 10000 elements. Even for one-time boolean operations 
+  it can pay-off to convert to bit, the pay-off is obvious, when such 
+  components are used more than once. 
+  Reading from and writing to bit is approximately as fast as accessing 
+  standard logicals - mostly due to R's time for memory allocation. The package 
+  allows to work with pre-allocated memory for return values by calling .Call() 
+  directly: when evaluating the speed of C-access with pre-allocated vector 
+  memory, coping from bit to logical requires only 70% of the time for copying 
+  from logical to logical; and copying from logical to bit comes at a 
+  performance penalty of 150%. the package now contains further classes for 
+  representing logical selections: 'bitwhich' for very skewed selections and 
+  'ri' for selecting ranges of values for chunked processing. All three index 
+  classes can be used for subsetting 'ff' objects (ff-2.1-0 and higher).",1.1-14,R (≥ 2.9.2),NA,NA
+bit64,bit64: A S3 Class for Vectors of 64bit Integers,OK,"
+ Package 'bit64' provides serializable S3 atomic 64bit (signed) integers. 
+ These are useful for handling database keys and exact counting in +-2^63.
+ WARNING: do not use them as replacement for 32bit integers, integer64 are not
+ supported for subscripting by R-core and they have different semantics when 
+ combined with double, e.g. integer64 + double => integer64. 
+ Class integer64 can be used in vectors, matrices, arrays and data.frames. 
+ Methods are available for coercion from and to logicals, integers, doubles, 
+ characters and factors as well as many elementwise and summary functions. 
+ Many fast algorithmic operations such as 'match' and 'order' support inter-
+ active data exploration and manipulation and optionally leverage caching.",0.9-7,"R (≥ 3.0.1), bit (≥ 1.1-12), utils, methods, stats",NA,NA
+bitops,bitops: Bitwise Operations,OK,Functions for bitwise operations on integer vectors.,1.0-6,NA,NA,NA
+caTools,"caTools: Tools: moving window statistics, GIF, Base64, ROC AUC, etc",OK,"Contains several basic utility functions including: moving
+        (rolling, running) window statistic functions, read/write for
+        GIF and ENVI binary files, fast calculation of AUC, LogitBoost
+        classifier, base64 encoder/decoder, round-off-error-free sum
+        and cumsum, etc.",1.17.1.1,R (≥ 2.2.0),bitops,"MASS, rpart"
+checkmate,checkmate: Fast and Versatile Argument Checks,OK,"Tests and assertions to perform frequent argument checks. A
+    substantial part of the package was written in C to minimize any worries
+    about execution time overhead.",1.8.5,R (≥ 3.0.0),"backports (≥ 1.1.0), utils","R6, bit, fastmatch, data.table (≥ 1.9.8), devtools, ggplot2, knitr, magrittr, microbenchmark, rmarkdown, testthat (≥
+0.11.0), tibble"
+chron,chron: Chronological Objects which can Handle Dates and Times,OK,Provides chronological objects which can handle dates and times.,2.3-52,R (≥ 2.12.0),"graphics, stats","scales, ggplot2"
+clusterSim,clusterSim: Searching for Optimal Clustering Procedure for a Data Set,OK,"Distance measures (GDM1, GDM2,	Sokal-Michener, Bray-Curtis, for symbolic interval-valued data), cluster quality indices (Calinski-Harabasz, Baker-Hubert, Hubert-Levine, Silhouette, Krzanowski-Lai, Hartigan, Gap,	Davies-Bouldin),	data normalization formulas (metric data, interval-valued symbolic data), data generation (typical and non-typical data), HINoV method,	replication analysis, linear ordering methods, spectral clustering, agreement indices between two partitions, plot functions (for categorical and symbolic interval-valued data). 
+ (MILLIGAN, G.W., COOPER, M.C. (1985) <doi:10.1007/BF02294245>, 
+ HUBERT, L., ARABIE, P. (1985), <doi:10.1007%2FBF01908075>, 
+ RAND, W.M. (1971) <doi:10.1080/01621459.1971.10482356>, 
+ JAJUGA, K., WALESIAK, M. (2000) <doi:10.1007/978-3-642-57280-7_11>, 
+ MILLIGAN, G.W., COOPER, M.C. (1988) <doi:10.1007/BF01897163>, 
+ CORMACK, R.M. (1971) <doi:10.2307/2344237>, 
+ JAJUGA, K., WALESIAK, M., BAK, A. (2003) <doi:10.1007/978-3-642-55721-7_12>, 
+ CARMONE, F.J., KARA, A., MAXWELL, S. (1999) <doi:10.2307/3152003>, 
+ DAVIES, D.L., BOULDIN, D.W. (1979) <doi:10.1109/TPAMI.1979.4766909>, 
+ CALINSKI, T., HARABASZ, J. (1974) <doi:10.1080/03610927408827101>,
+ HUBERT, L. (1974) <doi:10.1080/01621459.1974.10480191>, 
+ TIBSHIRANI, R., WALTHER, G., HASTIE, T. (2001) <doi:10.1111/1467-9868.00293>, 
+ KRZANOWSKI, W.J., LAI, Y.T. (1988) <doi:10.2307/2531893>, 
+ BRECKENRIDGE, J.N. (2000) <doi:10.1207/S15327906MBR3502_5>, 
+ WALESIAK, M., DUDEK, A. (2008) <doi:10.1007/978-3-540-78246-9_11>).",0.47-1,"cluster, MASS","ade4, e1071, rgl, R2HTML, modeest, grDevices, graphics, stats, utils","mlbench, testthat"
+coda,coda: Output Analysis and Diagnostics for MCMC,OK,"Provides functions for summarizing and plotting the
+	output from Markov Chain Monte Carlo (MCMC) simulations, as
+	well as diagnostic tests of convergence to the equilibrium
+	distribution of the Markov chain.",0.19-1,R (≥ 2.14.0),lattice,NA
+codetools,codetools: Code Analysis Tools for R,OK,Code analysis tools for R.,0.2-15,R (≥ 2.1),NA,NA
+colorspace,colorspace: Color Space Manipulation,OK,"Carries out mapping between assorted color spaces including
+             RGB, HSV, HLS, CIEXYZ, CIELUV, HCL (polar CIELUV),
+	     CIELAB and polar CIELAB. Qualitative, sequential, and
+	     diverging color palettes based on HCL colors are provided
+	     along with an interactive palette picker (with either a Tcl/Tk
+	     or a shiny GUI).",1.3-2,"R (≥ 2.13.0), methods","graphics, grDevices","datasets, stats, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd, dichromat, tcltk, shiny, shinyjs"
+combinat,combinat: combinatorics utilities,OK,routines for combinatorics,0.0-8,NA,NA,NA
+conf.design,conf.design: Construction of factorial designs,OK,"This small library contains a series of simple tools for
+        constructing and manipulating confounded and fractional
+        factorial designs.",2.0.0,NA,NA,"stats, utils"
+conjoint,conjoint: An Implementation of Conjoint Analysis Method,OK,This is a simple R package that allows to measure the stated preferences using traditional conjoint analysis method.,1.41,NA,"AlgDesign, stats, grDevices, graphics, fpc, broom, ggplot2, cluster, ggfortify",NA
+corpcor,corpcor: Efficient Estimation of Covariance and (Partial) Correlation,OK,"Implements a James-Stein-type shrinkage estimator for 
+  the covariance matrix, with separate shrinkage for variances and correlations.  
+  The details of the method are explained in Schafer and Strimmer (2005) 
+  <doi:10.2202/1544-6115.1175> and Opgen-Rhein and Strimmer (2007) 
+  <doi:10.2202/1544-6115.1252>.  The approach is both computationally as well
+  as statistically very efficient, it is applicable to ""small n, large p"" data, 
+  and always returns a positive definite and well-conditioned covariance matrix.  
+  In addition to inferring the covariance matrix the package also provides 
+  shrinkage estimators for partial correlations and partial variances.  
+  The inverse of the covariance and correlation matrix 
+  can be efficiently computed, as well as any arbitrary power of the 
+  shrinkage correlation matrix.  Furthermore, functions are available for fast 
+  singular value decomposition, for computing the pseudoinverse, and for 
+  checking the rank and positive definiteness of a matrix.",1.6.9,R (≥ 3.0.2),stats,NA
+curl,curl: A Modern and Flexible Web Client for R,OK,"The curl() and curl_download() functions provide highly
+    configurable drop-in replacements for base url() and download.file() with
+    better performance, support for encryption (https, ftps), gzip compression,
+    authentication, and other 'libcurl' goodies. The core of the package implements a
+    framework for performing fully customized requests where data can be processed
+    either in memory, on disk, or streaming via the callback or connection
+    interfaces. Some knowledge of 'libcurl' is recommended; for a more-user-friendly
+    web client see the 'httr' package which builds on this package with http
+    specific tools and logic.",3.2,R (≥ 3.0.0),NA,"spelling, testthat (≥ 1.0.0), knitr, jsonlite, rmarkdown, magrittr, httpuv, webutils"
+d3Network,"d3Network: Tools for creating D3 JavaScript network, tree, dendrogram, and
+Sankey graphs from R",OK,"This packages is intended to make it easy to create D3 JavaScript
+    network, tree, dendrogram, and Sankey graphs from R using data frames.
+    !!! NOTE: Active development has moved to the networkD3 package. !!!",0.5.2.1,R (≥ 3.0.0),"plyr, rjson, whisker",RCurl
+data.table,data.table: Extension of 'data.frame',OK,"Fast aggregation of large data (e.g. 100GB in RAM), fast ordered joins, fast add/modify/delete of columns by group using no copies at all, list columns, friendly and fast character-separated-value read/write. Offers a natural and flexible syntax, for faster development.",1.11.4,R (≥ 3.1.0),methods,"bit64, curl, knitr, xts, nanotime, zoo, reshape2"
+DBI,DBI: R Database Interface,OK,"A database interface definition for communication
+    between R and relational database management systems.  All
+    classes in this package are virtual and need to be extended by
+    the various R/DBMS implementations.",1.0.0,"R (≥ 3.0.0), methods",NA,"blob, covr, hms, knitr, magrittr, rprojroot, rmarkdown, RSQLite (≥ 1.1-2), testthat, xml2"
+devtools,devtools: Tools to Make Developing R Packages Easier,OK,Collection of package development tools.,1.13.6,R (≥ 3.0.2),"httr (≥ 0.4), utils, tools, methods, memoise (≥ 1.0.0), whisker, digest, rstudioapi (≥ 0.2.0), jsonlite, stats, git2r (≥ 0.11.0), withr","curl (≥ 0.9), crayon, testthat (≥ 1.0.2), BiocInstaller, Rcpp (≥ 0.10.0), MASS, rmarkdown, knitr, hunspell (≥ 2.0), lintr (≥ 0.2.1), bitops, roxygen2 (≥ 5.0.0), evaluate, rversions, covr, gmailr (> 0.7.0)"
+dichromat,dichromat: Color Schemes for Dichromats,OK,"Collapse red-green or green-blue distinctions to simulate
+        the effects of different types of color-blindness.",2.0-0,"R (≥ 2.10), stats",NA,NA
+digest,digest: Create Compact Hash Digests of R Objects,OK,"Implementation of a function 'digest()' for the creation 
+ of hash digests of arbitrary R objects (using the 'md5', 'sha-1', 'sha-256', 
+ 'crc32', 'xxhash' and 'murmurhash' algorithms) permitting easy comparison of R
+ language objects, as well as a function 'hmac()' to create hash-based
+ message authentication code. Please note that this package is not meant to
+ be deployed for cryptographic purposes for which more comprehensive (and
+ widely tested) libraries such as 'OpenSSL' should be used.",0.6.16,R (≥ 3.1.0),NA,"knitr, rmarkdown"
+DoE.base,"DoE.base: Full Factorials, Orthogonal Arrays and Base Utilities for DoE
+Packages",OK,"Creates full factorial experimental designs and designs based on orthogonal arrays for (industrial) experiments. Provides diverse quality criteria. Provides utility functions for the class design, which is also used by other packages for designed experiments.",1.1-1,"R (≥ 2.10), grid, conf.design","stats, utils, graphics, grDevices, vcd, combinat, MASS, lattice, numbers, partitions",RColorBrewer
+doParallel,doParallel: Foreach Parallel Adaptor for the 'parallel' Package,OK,"Provides a parallel backend for the %dopar% function using
+        the parallel package.",1.0.11,"R (≥ 2.14.0), foreach (≥ 1.2.0), iterators (≥ 1.0.0), parallel, utils",NA,"caret, mlbench, rpart"
+dplyr,dplyr: A Grammar of Data Manipulation,OK,"A fast, consistent tool for working with data frame like objects,
+    both in memory and out of memory.",0.7.6,R (≥ 3.1.2),"assertthat (≥ 0.2.0), bindrcpp (≥ 0.2.0.9000), glue (≥
+1.1.1), magrittr (≥ 1.5), methods, pkgconfig (≥ 2.0.1), R6 (≥ 2.2.2), Rcpp (≥ 0.12.15), rlang (≥ 0.2.0), tibble (≥
+1.3.1), tidyselect (≥ 0.2.3), utils","bit64 (≥ 0.9.7), callr, covr (≥ 3.0.1), DBI (≥ 0.7.14), dbplyr (≥ 1.2.0), dtplyr (≥ 0.0.2), ggplot2 (≥ 2.2.1), hms (≥ 0.4.1), knitr (≥ 1.19), Lahman (≥ 3.0-1), lubridate, MASS, mgcv (≥ 1.8.23), microbenchmark (≥ 1.4.4), nycflights13 (≥ 0.2.2), rmarkdown (≥ 1.8), RMySQL (≥ 0.10.13), RPostgreSQL (≥ 0.6.2), RSQLite (≥ 2.0), testthat (≥ 2.0.0), withr (≥ 2.1.1)"
+dse,dse: Dynamic Systems Estimation (Time Series Package),OK,"Tools for multivariate, linear, time-invariant,
+	time series models. This includes ARMA and state-space representations,
+	and methods for converting between them. It also includes simulation
+	methods and several estimation functions. The package has functions 
+	for looking at model roots, stability, and forecasts at different 
+	horizons. The ARMA model representation is general, so that VAR, VARX, 
+	ARIMA, ARMAX, ARIMAX can all be considered to be special cases. Kalman
+	filter and smoother estimates can be obtained from the state space
+	model, and state-space model reduction techniques are implemented. 
+	An introduction and User's Guide is available in a vignette.",2015.12-1,"R (≥ 2.5.0), tfplot","tframe (≥ 2007.5-3), stats, utils, graphics, grDevices, setRNG (≥ 2004.4-1)",NA
+e1071,"e1071: Misc Functions of the Department of Statistics, Probability
+Theory Group (Formerly: E1071), TU Wien",OK,"Functions for latent class analysis, short time Fourier
+	     transform, fuzzy clustering, support vector machines,
+	     shortest path computation, bagged clustering, naive Bayes
+	     classifier, ...",1.7-0,NA,"graphics, grDevices, class, stats, methods, utils","cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable, Matrix, MASS"
+effects,"effects: Effect Displays for Linear, Generalized Linear, and Other Models",OK,"
+  Graphical and tabular effect displays, e.g., of interactions, for 
+  various statistical models with linear predictors.",4.0-3,"R (≥ 3.5.0), carData","lme4, nnet, lattice, grid, colorspace, graphics, grDevices, stats, survey, utils, estimability","pbkrtest (≥ 0.4-4), nlme, MASS, poLCA, heplots, splines, ordinal, car, knitr"
+ellipse,"ellipse: Functions for Drawing Ellipses and Ellipse-Like Confidence
+Regions",OK,"Contains various routines for drawing
+    ellipses and ellipse-like confidence regions, implementing the plots
+    described in Murdoch and Chow (1996), A graphical display of large
+    correlation matrices, The American Statistician 50, 178-180. There are
+    also routines implementing the profile plots described in Bates and
+    Watts (1988), Nonlinear Regression Analysis and its Applications.",0.4.1,"R (≥ 2.0.0), graphics, stats",NA,MASS
+evaluate,"evaluate: Parsing and Evaluation Tools that Provide More Details than the
+Default",OK,"Parsing and evaluation tools that make it easy to recreate the
+    command line behaviour of R.",0.11,R (≥ 3.0.2),"methods, stringr (≥ 0.6.2)","testthat, lattice, ggplot2"
+FactoMineR,FactoMineR: Multivariate Exploratory Data Analysis and Data Mining,OK,"Exploratory data analysis methods to summarize, visualize and describe datasets. The main principal component methods are available, those with the largest potential in terms of applications: principal component analysis (PCA) when variables are quantitative, correspondence analysis (CA) and multiple correspondence analysis (MCA) when variables are categorical, Multiple Factor Analysis when variables are structured in groups, etc. and hierarchical cluster analysis. F. Husson, S. Le and J. Pages (2017) <doi:10.1201/b10345-2>.",1.41,R (≥ 3.0.0),"car, cluster, ellipse, flashClust, graphics, grDevices, lattice, leaps, MASS, scatterplot3d, stats, utils","missMDA, knitr"
+fBasics,fBasics: Rmetrics - Markets and Basic Statistics,OK,"Provides a collection of functions to 
+    explore and to investigate basic properties of financial returns 
+    and related quantities.
+    The covered fields include techniques of explorative data analysis
+    and the investigation of distributional properties, including
+    parameter estimation and hypothesis testing. Even more there are
+    several utility functions for data handling and management.",3042.89,"R (≥ 2.15.1), timeDate, timeSeries","stats, grDevices, graphics, methods, utils, MASS, spatial, gss, stabledist","akima, RUnit, tcltk"
+fdrtool,fdrtool: Estimation of (Local) False Discovery Rates and Higher Criticism,OK,"Estimates both tail area-based false 
+   discovery rates (Fdr) as well as local false discovery rates (fdr) for a 
+   variety of null models (p-values, z-scores, correlation coefficients,
+   t-scores).  The proportion of null values and the parameters of the null 
+   distribution are adaptively estimated from the data.  In addition, the package 
+   contains functions for non-parametric density estimation (Grenander estimator), 
+   for monotone regression (isotonic regression and antitonic regression with weights),
+   for computing the greatest convex minorant (GCM) and the least concave majorant (LCM), 
+   for the half-normal and correlation distributions, and for computing
+   empirical higher criticism (HC) scores and the corresponding decision threshold.",1.2.15,R (≥ 3.0.2),"graphics, grDevices, stats",NA
+fGarch,fGarch: Rmetrics - Autoregressive Conditional Heteroskedastic Modelling,OK,"Provides a collection of functions to 
+  analyze and model heteroskedastic behavior in financial time
+  series models.",3042.83,"R (≥ 2.15.1), timeDate, timeSeries, fBasics","fastICA, Matrix, graphics, methods, stats, utils","RUnit, tcltk"
+flashClust,flashClust: Implementation of optimal hierarchical clustering,OK,Fast implementation of hierarchical clustering,1.01-2,R (≥ 2.3.0),NA,NA
+foreach,foreach: Provides Foreach Looping Construct for R,OK,"Support for the foreach looping construct.  Foreach is an
+        idiom that allows for iterating over elements in a collection,
+        without the use of an explicit loop counter.  This package in
+        particular is intended to be used for its return value, rather
+        than for its side effects.  In that sense, it is similar to the
+        standard lapply function, but doesn't require the evaluation
+        of a function.  Using foreach without side effects also
+        facilitates executing the loop in parallel.",1.4.4,R (≥ 2.5.0),"codetools, utils, iterators",randomForest
+forecast,forecast: Forecasting Functions for Time Series and Linear Models,OK,"Methods and tools for displaying and analysing
+             univariate time series forecasts including exponential smoothing
+             via state space models and automatic ARIMA modelling.",8.4,R (≥ 3.0.2),"colorspace, fracdiff, ggplot2 (≥ 2.2.1), graphics, lmtest, magrittr, nnet, parallel, Rcpp (≥ 0.11.0), stats, timeDate, tseries, urca, uroot, zoo","expsmooth, knitr, rmarkdown, rticles, testthat"
+formatR,formatR: Format R Code Automatically,OK,"Provides a function tidy_source() to format R source code. Spaces
+    and indent will be added to the code automatically, and comments will be
+    preserved under certain conditions, so that R code will be more
+    human-readable and tidy. There is also a Shiny app as a user interface in
+    this package (see tidy_app()).",1.5,R (≥ 3.0.2),NA,"codetools, shiny, testit, rmarkdown, knitr"
+Formula,Formula: Extended Model Formulas,OK,"Infrastructure for extended formulas with multiple parts on the
+             right-hand side and/or multiple responses on the left-hand side
+	     (see <doi:10.18637/jss.v034.i01>).",1.2-3,"R (≥ 2.0.0), stats",NA,NA
+fracdiff,"fracdiff: Fractionally differenced ARIMA aka ARFIMA(p,d,q) models",OK,"Maximum likelihood estimation of the parameters of a
+        fractionally differenced ARIMA(p,d,q) model (Haslett and
+        Raftery, Appl.Statistics, 1989).",1.4-2,NA,NA,"longmemo, urca"
+fUnitRoots,fUnitRoots: Rmetrics - Modelling Trends and Unit Roots,OK,"Provides four addons for analyzing trends and
+    unit roots in financial time series: (i) functions for the density
+    and probability of the augmented Dickey-Fuller Test, (ii) functions 
+    for the density and probability of MacKinnon's unit root test 
+    statistics, (iii) reimplementations for the ADF and MacKinnon
+    Test, and (iv) an 'urca' Unit Root Test Interface for Pfaff's
+    unit root test suite.",3042.79,"R (≥ 2.15.1), timeDate, timeSeries, fBasics","urca, graphics, methods, stats, utils",RUnit
+gam,gam: Generalized Additive Models,OK,"Functions for fitting and working with generalized
+		additive models, as described in chapter 7 of ""Statistical Models in
+		S"" (Chambers and Hastie (eds), 1991), and ""Generalized Additive
+		Models"" (Hastie and Tibshirani, 1990).",1.16,"stats, splines, foreach",NA,akima
+ggm,ggm: Functions for graphical Markov models,OK,Functions and datasets for maximum likelihood fitting of some classes of graphical Markov models.,2.3,igraph,NA,NA
+glasso,glasso: Graphical Lasso: Estimation of Gaussian Graphical Models,OK,"Estimation of a sparse inverse covariance matrix using a lasso (L1)
+             penalty. Facilities are provided for estimates along a path of values
+	     for the regularization parameter.",1.10,NA,NA,NA
+gmm,"gmm: Generalized Method of Moments and Generalized Empirical
+Likelihood",OK,"It is a complete suite to estimate models based on moment
+        conditions. It includes the two step Generalized method of
+        moments (Hansen 1982; <doi:10.2307/1912775>), the iterated GMM and continuous
+        updated estimator (Hansen, Eaton and Yaron 1996; <doi:10.2307/1392442>) and several
+        methods that belong to the Generalized Empirical Likelihood
+        family of estimators (Smith 1997; <doi:10.1111/j.0013-0133.1997.174.x>,
+        Kitamura 1997; <doi:10.1214/aos/1069362388>, Newey and Smith 2004; <doi:10.1111/j.1468-0262.2004.00482.x>,
+	and Anatolyev 2005 <doi:10.1111/j.1468-0262.2005.00601.x>).",1.6-2,"R (≥ 2.10.0), sandwich","stats, methods, grDevices, graphics","mvtnorm, car, stabledist, MASS, timeDate, timeSeries"
+GPArotation,GPArotation: GPA Factor Rotation,OK,Gradient Projection Algorithm Rotation for Factor Analysis. See ?GPArotation.Intro for more details.,2014.11-1,R (≥ 2.0.0),NA,NA
+gridBase,gridBase: Integration of base and grid graphics,OK,Integration of base and grid graphics,0.4-7,R (≥ 2.3.0),"graphics, grid",lattice
+gridExtra,"gridExtra: Miscellaneous Functions for ""Grid"" Graphics",OK,"Provides a number of user-level functions to work with ""grid""
+    graphics, notably to arrange multiple grid-based plots on a page, and draw
+    tables.",2.3,NA,"gtable, grid, grDevices, graphics, utils","ggplot2, egg, lattice, knitr, testthat"
+gss,gss: General Smoothing Splines,OK,"A comprehensive package for structural multivariate
+        function estimation using smoothing splines.",2.1-9,"R (≥ 2.14.0), stats",NA,NA
+gtable,gtable: Arrange 'Grobs' in Tables,OK,"Tools to make it easier to work with ""tables"" of 'grobs'.",0.2.0,R (≥ 2.14),grid,"testthat, covr"
+gtools,gtools: Various R Programming Tools,OK,"Functions to assist in R programming, including:
+  - assist in developing, updating, and maintaining R and R packages ('ask', 'checkRVersion',
+    'getDependencies', 'keywords', 'scat'),
+  - calculate the logit and inverse logit transformations ('logit', 'inv.logit'),
+  - test if a value is missing, empty or contains only NA and NULL values ('invalid'),
+  - manipulate R's .Last function ('addLast'),
+  - define macros ('defmacro'),
+  - detect odd and even integers ('odd', 'even'),
+  - convert strings containing non-ASCII characters (like single quotes) to plain ASCII ('ASCIIfy'),
+  - perform a binary search ('binsearch'),
+  - sort strings containing both numeric and character components ('mixedsort'),
+  - create a factor variable from the quantiles of a continuous variable ('quantcut'),
+  - enumerate permutations and combinations ('combinations', 'permutation'),
+  - calculate and convert between fold-change and log-ratio ('foldchange',
+    'logratio2foldchange', 'foldchange2logratio'),
+  - calculate probabilities and generate random numbers from Dirichlet distributions
+    ('rdirichlet', 'ddirichlet'),
+  - apply a function over adjacent subsets of a vector ('running'),
+  - modify the TCP\_NODELAY ('de-Nagle') flag for socket objects,
+  - efficient 'rbind' of data frames, even if the column names don't match ('smartbind'),
+  - generate significance stars from p-values ('stars.pval'),
+  - convert characters to/from ASCII codes ('asc', 'chr'),
+  - convert character vector to ASCII representation ('ASCIIfy').",3.8.1,"methods, stats, utils",NA,NA
+highr,highr: Syntax Highlighting for R Source Code,OK,"Provides syntax highlighting for R source code. Currently it
+    supports LaTeX and HTML output. Source code of other languages is supported
+    via Andre Simon's highlight package (<http://www.andre-simon.de>).",0.7,R (≥ 3.0.2),NA,"knitr, testit"
+Hmisc,Hmisc: Harrell Miscellaneous,OK,"Contains many functions useful for data
+	analysis, high-level graphics, utility operations, functions for
+	computing sample size and power, importing and annotating datasets,
+	imputing missing values, advanced table making, variable clustering,
+	character string manipulation, conversion of R objects to LaTeX and html code,
+	and recoding variables.",4.1-1,"lattice, survival (≥ 2.40-1), Formula, ggplot2 (≥ 2.2)","methods, latticeExtra, cluster, rpart, nnet, acepack, foreign, gtable, grid, gridExtra, data.table, htmlTable (≥ 1.11.0), viridis, htmltools, base64enc","chron, rms, mice, tables, knitr, ff, ffbase, plotly (≥
+4.5.6)"
+htmlTable,htmlTable: Advanced Tables for Markdown/HTML,OK,"Tables with state-of-the-art layout elements such as row spanners,
+    column spanners, table spanners, zebra striping, and more. While allowing
+    advanced layout, the underlying css-structure is simple in order to maximize
+    compatibility with word processors such as 'MS Word' or 'LibreOffice'. The package
+    also contains a few text formatting functions that help outputting text
+    compatible with HTML/LaTeX.",1.12,NA,"stringr, knitr (≥ 1.6), magrittr (≥ 1.5), methods, checkmate, htmlwidgets, htmltools, rstudioapi (≥ 0.6)","testthat, XML, xtable, ztable, Hmisc, reshape, rmarkdown, pander, chron, lubridate, tibble, tidyr (≥ 0.7.2), dplyr (≥
+0.7.4)"
+htmltools,htmltools: Tools for HTML,OK,Tools for HTML generation and output.,0.3.6,R (≥ 2.14.1),"utils, digest, Rcpp","markdown, testthat"
+htmlwidgets,htmlwidgets: HTML Widgets for R,OK,"A framework for creating HTML widgets that render in various
+    contexts including the R console, 'R Markdown' documents, and 'Shiny'
+    web applications.",1.2,NA,"grDevices, htmltools (≥ 0.3), jsonlite (≥ 0.9.16), yaml",knitr (≥ 1.8)
+httpuv,httpuv: HTTP and WebSocket Server Library,OK,"Provides low-level socket and protocol support for handling
+    HTTP and WebSocket requests directly from within R. It is primarily
+    intended as a building block for other packages, rather than making it
+    particularly easy to create complete web applications using httpuv alone.
+    httpuv is built on top of the libuv and http-parser C libraries, both of
+    which were developed by Joyent, Inc. (See LICENSE file for libuv and
+    http-parser license information.)",1.4.5,"R (≥ 2.15.1), methods","Rcpp (≥ 0.11.0), utils, promises, later (≥ 0.7.3)","testthat, callr"
+httr,httr: Tools for Working with URLs and HTTP,OK,"Useful tools for working with HTTP organised by HTTP verbs
+    (GET(), POST(), etc). Configuration functions make it easy to control
+    additional request components (authenticate(), add_headers() and so on).",1.3.1,R (≥ 3.0.0),"jsonlite, mime, curl (≥ 0.9.1), openssl (≥ 0.8), R6","httpuv, jpeg, knitr, png, testthat (≥ 0.8.0), readr, xml2, rmarkdown, covr"
+huge,huge: High-Dimensional Undirected Graph Estimation,OK,"Provides a general framework for
+        high-dimensional undirected graph estimation. It integrates
+        data preprocessing, neighborhood screening, graph estimation,
+        and model selection techniques into a pipeline. In
+        preprocessing stage, the nonparanormal(npn) transformation is
+        applied to help relax the normality assumption. In the graph
+        estimation stage, the graph structure is estimated by
+        Meinshausen-Buhlmann graph estimation or the graphical lasso,
+        and both methods can be further accelerated by the lossy
+        screening rule preselecting the neighborhood of each variable
+        by correlation thresholding. We target on high-dimensional data
+        analysis usually d >> n, and the computation is
+        memory-optimized using the sparse matrix output. We also
+        provide a computationally efficient approach, correlation
+        thresholding graph estimation. Three
+        regularization/thresholding parameter selection methods are
+        included in this package: (1)stability approach for
+        regularization selection (2) rotation information criterion (3)
+        extended Bayesian information criterion which is only available
+        for the graphical lasso.",1.2.7,"R (≥ 3.0.0), Matrix, lattice, igraph, MASS","grDevices, graphics, methods, stats, utils",NA
+igraph,igraph: Network Analysis and Visualization,OK,"Routines for simple graphs and network analysis. It can
+  handle large graphs very well and provides functions for generating random
+  and regular graphs, graph visualization, centrality methods and much more.",1.2.2,methods,"graphics, grDevices, magrittr, Matrix, pkgconfig (≥ 2.0.0), stats, utils","ape, digest, graph, igraphdata, rgl, scales, stats4, tcltk, testthat"
+iplots,iplots: iPlots - interactive graphics for R,OK,Interactive plots for R.,1.1-7.1,"R (≥ 1.5.0), methods, rJava (≥ 0.5-0)","grDevices, png","maps, MASS"
+irlba,"irlba: Fast Truncated Singular Value Decomposition and Principal
+Components Analysis for Large Dense and Sparse Matrices",OK,"Fast and memory efficient methods for truncated singular value
+    decomposition and principal components analysis of large sparse and dense matrices.",2.3.2,Matrix,"stats, methods",PMA
+iterators,iterators: Provides Iterator Construct for R,OK,"Support for iterators, which allow a programmer to traverse
+        through all the elements of a vector, list, or other collection
+        of data.",1.0.10,"R (≥ 2.5.0), utils",NA,"RUnit, foreach"
+JavaGD,JavaGD: Java Graphics Device,OK,"Graphics device routing all graphics commands to a Java
+        program. The actual functionality of the JavaGD depends on the
+        Java-side implementation. Simple AWT and Swing implementations
+        are included.",0.6-1,R (≥ 2.4.0),NA,rJava (≥ 0.5-0)
+jpeg,jpeg: Read and write JPEG images,OK,"This package provides an easy and simple way to read, write and display bitmap images stored in the JPEG format. It can read and write both files and in-memory raw vectors.",0.1-8,R (≥ 2.9.0),NA,NA
+jsonlite,"jsonlite: A Robust, High Performance JSON Parser and Generator for R",OK,"A fast JSON parser and generator optimized for statistical data
+    and the web. Started out as a fork of 'RJSONIO', but has been completely
+    rewritten in recent versions. The package offers flexible, robust, high
+    performance tools for working with JSON in R and is particularly powerful
+    for building pipelines and interacting with a web API. The implementation is
+    based on the mapping described in the vignette (Ooms, 2014). In addition to
+    converting JSON data from/to R objects, 'jsonlite' contains functions to
+    stream, validate, and prettify JSON data. The unit tests included with the
+    package verify that all edge cases are encoded and decoded consistently for
+    use with dynamic data in systems and applications.",1.5,methods,NA,"httr, curl, plyr, testthat, knitr, rmarkdown, R.rsp, sp"
+kernlab,kernlab: Kernel-Based Machine Learning Lab,OK,"Kernel-based machine learning methods for classification,
+        regression, clustering, novelty detection, quantile regression
+        and dimensionality reduction.  Among other methods 'kernlab'
+        includes Support Vector Machines, Spectral Clustering, Kernel
+        PCA, Gaussian Processes and a QP solver.",0.9-27,R (≥ 2.10),"methods, stats, grDevices, graphics",NA
+knitr,knitr: A General-Purpose Package for Dynamic Report Generation in R,OK,"Provides a general-purpose tool for dynamic report generation in R
+    using Literate Programming techniques.",1.20,R (≥ 3.1.0),"evaluate (≥ 0.10), highr, markdown, stringr (≥ 0.6), yaml, methods, tools","formatR, testit, digest, rgl (≥ 0.95.1201), codetools, rmarkdown, htmlwidgets (≥ 0.7), webshot, tikzDevice (≥ 0.10), tinytex, xfun, reticulate (≥ 1.4), JuliaCall (≥ 0.11.1), png, jpeg, xml2, httr, DBI (≥ 0.4-1), showtext, tibble"
+kohonen,kohonen: Supervised and Unsupervised Self-Organising Maps,OK,"Functions to train self-organising maps (SOMs). Also interrogation of the maps and prediction using trained maps are supported. The name of the package refers to Teuvo Kohonen, the inventor of the SOM.",3.0.6,R (≥ 2.10),"MASS, Rcpp (≥ 0.12.12)",NA
+labeling,labeling: Axis Labeling,OK,Provides a range of axis labeling algorithms,0.3,NA,NA,NA
+latticeExtra,latticeExtra: Extra Graphical Utilities Based on Lattice,OK,"Building on the infrastructure provided by the lattice
+	     package, this package provides several new high-level
+	     functions and methods, as well as additional utilities
+	     such as panel and axis annotation functions.",0.6-28,"R (≥ 2.10.0), lattice, RColorBrewer","grid, stats, utils, grDevices","maps, mapproj, deldir, tripack, zoo, MASS, quantreg, mgcv"
+lavaan,lavaan: Latent Variable Analysis,OK,"Fit a variety of latent variable models, including confirmatory
+   factor analysis, structural equation modeling and latent growth curve models.",0.6-2,R (≥ 3.4),"methods, stats4, stats, utils, graphics, MASS, mnormt, pbivnorm, numDeriv",testthat
+lavaan.survey,lavaan.survey: Complex Survey Structural Equation Modeling (SEM),OK,"Fit structural equation models (SEM) including factor analysis,
+    multivariate regression models with latent variables and many other latent
+    variable models while correcting estimates, standard errors, and
+    chi-square-derived fit measures for a complex sampling design. 
+    Incorporate clustering, stratification, sampling weights, and 
+    finite population corrections into a SEM analysis.
+    Wrapper around packages lavaan and survey.",1.1.3.1,"R (≥ 2.14.0), lavaan (≥ 0.5-20), survey (≥ 3.30-3)",MASS,"testthat, mice, mitools"
+lazyeval,lazyeval: Lazy (Non-Standard) Evaluation,OK,"An alternative approach to non-standard evaluation using
+    formulas. Provides a full implementation of LISP style 'quasiquotation',
+    making it easier to generate code with other code.",0.2.1,R (≥ 3.1.0),NA,"knitr, rmarkdown (≥ 0.2.65), testthat, covr"
+leaps,leaps: Regression Subset Selection,OK,"Regression subset selection, including exhaustive search.",3.0,NA,NA,biglm
+LearnBayes,LearnBayes: Functions for Learning Bayesian Inference,OK,"A collection of functions helpful in learning the basic tenets of Bayesian statistical inference.  It contains functions for summarizing basic one and two parameter posterior distributions and predictive distributions.  It contains MCMC algorithms for summarizing posterior distributions defined by the user.  It also contains functions for regression models, hierarchical models, Bayesian tests, and illustrations of Gibbs sampling.",2.15.1,NA,NA,NA
+lisrelToR,lisrelToR: Import output from LISREL into R,OK,"This is an unofficial package aimed at automating the
+        import of LISREL output in R.  This package or its maintainer
+        is not in any way affiliated with the creators of LISREL and
+        SSI, Inc.",0.1.4,R (≥ 2.15.0),NA,NA
+lme4,lme4: Linear Mixed-Effects Models using 'Eigen' and S4,OK,"Fit linear and generalized linear mixed-effects models.
+    The models and their components are represented using S4 classes and
+    methods.  The core computational algorithms are implemented using the
+    'Eigen' C++ library for numerical linear algebra and 'RcppEigen' ""glue"".",1.1-18-1,"R (≥ 3.2.0), Matrix (≥ 1.2-1), methods, stats","graphics, grid, splines, utils, parallel, MASS, lattice, nlme (≥ 3.1-123), minqa (≥ 1.1.15), nloptr (≥ 1.0.4)","knitr, boot, PKPDmodels, MEMSS, testthat (≥ 0.8.1), ggplot2, mlmRev, optimx (≥ 2013.8.6), gamm4, pbkrtest, HSAUR2, numDeriv"
+lmtest,lmtest: Testing Linear Regression Models,OK,"A collection of tests, data sets, and examples
+ for diagnostic checking in linear regression models. Furthermore,
+ some generic tools for inference in parametric models are provided.",0.9-36,"R (≥ 2.10.0), stats, zoo",graphics,"car, strucchange, sandwich, dynlm, stats4, survival, AER"
+lpSolveAPI,lpSolveAPI: R Interface to 'lp_solve' Version 5.5.2.0,OK,"The lpSolveAPI package provides an R interface to 'lp_solve',
+    a Mixed Integer Linear Programming (MILP) solver with support for pure
+    linear, (mixed) integer/binary, semi-continuous and special ordered sets
+    (SOS) models.",5.5.2.0-17,NA,NA,NA
+magrittr,magrittr: A Forward-Pipe Operator for R,OK,"Provides a mechanism for chaining commands with a
+    new forward-pipe operator, %>%. This operator will forward a
+    value, or the result of an expression, into the next function
+    call/expression. There is flexible support for the type
+    of right-hand side expressions. For more information, see
+    package vignette.
+    To quote Rene Magritte, ""Ceci n'est pas un pipe.""",1.5,NA,NA,"testthat, knitr"
+manipulate,manipulate: Interactive Plots for RStudio,OK,"Interactive plotting functions for use within RStudio.
+  The manipulate function accepts a plotting expression and a set of
+  controls (e.g. slider, picker, checkbox, or button) which are used
+  to dynamically change values within the expression. When a value is
+  changed using its corresponding control the expression is
+  automatically re-executed and the plot is redrawn.",1.0.1,R (≥ 2.11.1),NA,NA
+maptools,maptools: Tools for Reading and Handling Spatial Objects,OK,"Set of tools for manipulating and reading geographic data, in particular 'ESRI Shapefiles'; C code used from 'shapelib'. It includes binary access to 'GSHHG' shoreline files. The package also provides interface wrappers for exchanging spatial objects with packages such as 'PBSmapping', 'spatstat', 'maps', 'RArcInfo', 'Stata tmap', 'WinBUGS', 'Mondrian', and others.",0.9-3,"R (≥ 2.10), sp (≥ 1.0-11)","foreign (≥ 0.8), methods, grid, lattice, stats, utils, grDevices","rgeos (≥ 0.1-8), spatstat (≥ 1.50), PBSmapping, maps, RColorBrewer, raster, polyclip, spatstat.utils"
+mapview,mapview: Interactive Viewing of Spatial Data in R,OK,"Quickly and conveniently create interactive visualisations of spatial data with or without background maps. Attributes of displayed features are fully queryable via pop-up windows. Additional functionality includes methods to visualise true- and false-color raster images, bounding boxes, small multiples and 3D raster data cubes. ",2.5.0,"R (≥ 2.10), methods","leaflet (≥ 1.0.0), sp, raster, satellite, scales (≥ 0.2.5), brew, htmlwidgets, htmltools, png, Rcpp (≥ 0.11.3), lattice, webshot, viridisLite, sf, stars, base64enc, svglite, uuid","knitr, rmarkdown, dplyr, testthat, covr, lwgeom"
+markdown,markdown: 'Markdown' Rendering for R,OK,"Provides R bindings to the 'Sundown' 'Markdown' rendering library
+    (https://github.com/vmg/sundown). 'Markdown' is a plain-text formatting
+    syntax that can be converted to 'XHTML' or other formats. See
+    http://en.wikipedia.org/wiki/Markdown for more information about 'Markdown'.",0.8,R (≥ 2.11.1),"utils, mime (≥ 0.3)","knitr, RCurl"
+matrixcalc,matrixcalc: Collection of functions for matrix calculations,OK,"A collection of functions to support matrix calculations
+        for probability, econometric and numerical analysis. There are
+        additional functions that are comparable to APL functions which
+        are useful for actuarial models such as pension mathematics.
+        This package is used for teaching and research purposes at the
+        Department of Finance and Risk Engineering, New York
+        University, Polytechnic Institute, Brooklyn, NY 11201.",1.0-3,R (≥ 2.0.1),NA,NA
+MatrixModels,MatrixModels: Modelling with Sparse And Dense Matrices,OK,"Modelling with sparse and dense 'Matrix' matrices, using
+  modular prediction and response module classes.",0.4-1,R (≥ 3.0.1),"stats, methods, Matrix (≥ 1.1-5)",NA
+maxLik,maxLik: Maximum Likelihood Estimation and Related Tools,OK,"Functions for Maximum Likelihood (ML) estimation and non-linear
+   optimization, and related tools.  It includes a unified way to call
+   different optimizers, and classes and methods to handle the results from
+   the ML viewpoint.  It also includes a number of convenience tools for testing
+   and developing your own models.",1.3-4,"R (≥ 2.4.0), miscTools (≥ 0.6-8), methods",sandwich,NA
+mcmc,mcmc: Markov Chain Monte Carlo,OK,"Simulates continuous distributions of random vectors using
+    Markov chain Monte Carlo (MCMC).  Users specify the distribution by an
+    R function that evaluates the log unnormalized density.  Algorithms
+    are random walk Metropolis algorithm (function metrop), simulated
+    tempering (function temper), and morphometric random walk Metropolis
+    (Johnson and Geyer, 2012, <https://doi.org/10.1214/12-AOS1048>,
+    function morph.metrop),
+    which achieves geometric ergodicity by change of variable.",0.9-5,R (≥ 3.0.2),"stats, compiler","xtable, Iso"
+MCMCpack,MCMCpack: Markov Chain Monte Carlo (MCMC) Package,OK,"Contains functions to perform Bayesian
+        inference using posterior simulation for a number of
+        statistical models. Most simulation is done in compiled C++
+        written in the Scythe Statistical Library Version 1.0.3. All
+        models return 'coda' mcmc objects that can then be summarized
+        using the 'coda' package. Some useful
+        utility functions such as density functions,
+	pseudo-random number generators for statistical
+        distributions, a general purpose Metropolis sampling algorithm,
+        and tools for visualization are provided.",1.4-3,"R (≥ 2.10.0), coda (≥ 0.11-3), MASS, stats","graphics, grDevices, lattice, methods, utils, mcmc, quantreg",NA
+mgcv,"mgcv: Mixed GAM Computation Vehicle with Automatic Smoothness
+Estimation",OK,"Generalized additive (mixed) models, some of their extensions and 
+             other generalized ridge regression with multiple smoothing 
+             parameter estimation by (Restricted) Marginal Likelihood, 
+             Generalized Cross Validation and similar. Includes a gam() 
+             function, a wide variety of smoothers, JAGS support and 
+             distributions beyond the exponential family.",1.8-24,"R (≥ 2.14.0), nlme (≥ 3.1-64)","methods, stats, graphics, Matrix","splines, parallel, survival, MASS"
+mi,mi: Missing Data Imputation and Model Checking,OK,"The mi package provides functions for data manipulation, imputing missing values in an approximate Bayesian framework, diagnostics of the models used to generate the imputations, confidence-building mechanisms to validate some of the assumptions of the imputation algorithm, and functions to analyze multiply imputed data sets with the appropriate degree of sampling uncertainty.",1.0,"R (≥ 3.0.0), methods, Matrix, stats4",arm (≥ 1.4-11),"betareg, lattice, knitr, MASS, nnet, parallel, sn, survival, truncnorm, foreign"
+mice,mice: Multivariate Imputation by Chained Equations,OK,"Multiple imputation using Fully Conditional Specification (FCS)
+    implemented by the MICE algorithm as described in Van Buuren and
+    Groothuis-Oudshoorn (2011) <doi:10.18637/jss.v045.i03>. Each variable has
+    its own imputation model. Built-in imputation models are provided for
+    continuous data (predictive mean matching, normal), binary data (logistic
+    regression), unordered categorical data (polytomous logistic regression)
+    and ordered categorical data (proportional odds). MICE can also impute
+    continuous two-level data (normal model, pan, second-level variables).
+    Passive imputation can be used to maintain consistency between variables.
+    Various diagnostic plots are available to inspect the quality of the
+    imputations.",3.3.0,"methods, R (≥ 2.10.0), lattice","broom, dplyr, grDevices, graphics, MASS, mitml, nnet, parallel, Rcpp, rlang, rpart, splines, stats, survival, utils","AGD, CALIBERrfimpute, DPpackage, gamlss, lme4, mitools, nlme, pan, randomForest, Zelig, BSDA, knitr, rmarkdown, testthat, HSAUR3, micemd, miceadds, tidyr"
+mime,mime: Map Filenames to MIME Types,OK,"Guesses the MIME type from a filename extension using the data
+    derived from /etc/mime.types in UNIX-type systems.",0.5,NA,tools,NA
+minqa,"minqa: Derivative-free optimization algorithms by quadratic
+approximation",OK,"Derivative-free optimization by quadratic approximation
+        based on an interface to Fortran implementations by M. J. D.
+        Powell.",1.2.4,NA,Rcpp (≥ 0.9.10),NA
+miscTools,miscTools: Miscellaneous Tools and Utilities,OK,"Miscellaneous small tools and utilities.
+   Many of them facilitate the work with matrices,
+   e.g. inserting rows or columns, creating symmetric matrices,
+   or checking for semidefiniteness.
+   Other tools facilitate the work with regression models,
+   e.g. extracting the standard errors,
+   obtaining the number of (estimated) parameters,
+   or calculating R-squared values.",0.6-22,R (≥ 2.14.0),NA,Ecdat (≥ 0.1-5)
+missMDA,missMDA: Handling Missing Values with Multivariate Data Analysis,OK,"Imputation of incomplete continuous or categorical datasets; Missing values are imputed with a principal component analysis (PCA), a multiple correspondence analysis (MCA) model or a multiple factor analysis (MFA) model; Perform multiple imputation with and in PCA or MCA.",1.13,R (≥ 3.3.0),"FactoMineR, graphics, grDevices, mice, mvtnorm, stats, utils",knitr
+mlogit,mlogit: Multinomial Logit Models,OK,Maximum Likelihood estimation of random utility discrete choice models (logit and probit).,0.3-0,"R (≥ 2.10), Formula, maxLik","statmod, zoo, MASS, lmtest","knitr, car, nnet, lattice, AER, ggplot2, texreg"
+mnormt,mnormt: The Multivariate Normal and t Distributions,OK,"Functions are provided for computing the density and the
+  distribution function of multivariate normal and ""t"" random variables,
+  and for generating random vectors sampled from these distributions.  
+  Probabilities are computed via non-Monte Carlo methods; different routines 
+  are used in the case d=1, d=2, d>2, if d denotes the number of dimensions.",1.5-5,R (≥ 2.2.0),NA,NA
+modeest,modeest: Mode Estimation,OK,"This package provides estimators of the mode of univariate
+        unimodal data or univariate unimodal distributions",2.1,R (≥ 2.12.0),NA,"stats, evd, fBasics, stabledist, VGAM"
+moments,"moments: Moments, cumulants, skewness, kurtosis and related tests",OK,"Functions to calculate: moments, Pearson's kurtosis,
+        Geary's kurtosis and skewness; tests related to them
+        (Anscombe-Glynn, D'Agostino, Bonett-Seier).",0.14,NA,NA,NA
+multcomp,multcomp: Simultaneous Inference in General Parametric Models,OK,"Simultaneous tests and confidence intervals
+  for general linear hypotheses in parametric models, including 
+  linear, generalized linear, linear mixed effects, and survival models.
+  The package includes demos reproducing analyzes presented
+  in the book ""Multiple Comparisons Using R"" (Bretz, Hothorn, 
+  Westfall, 2010, CRC Press).",1.4-8,"stats, graphics, mvtnorm (≥ 1.0-3), survival (≥ 2.39-4), TH.data (≥ 1.0-2)","sandwich (≥ 2.3-0), codetools","lme4 (≥ 0.999375-16), nlme, robustbase, coin, MASS, car, foreign, xtable, lmtest, coxme (≥ 2.2-1), SimComp, ISwR"
+munsell,munsell: Utilities for Using Munsell Colours,OK,"Provides easy access to, and manipulation of, the Munsell 
+    colours. Provides a mapping between Munsell's 
+    original notation (e.g. ""5R 5/10"") and hexadecimal strings suitable 
+    for use directly in R graphics. Also provides utilities 
+    to explore slices through the Munsell colour tree, to transform 
+    Munsell colours and display colour palettes.",0.5.0,NA,"colorspace, methods","ggplot2, testthat"
+mvtnorm,mvtnorm: Multivariate Normal and t Distributions,OK,"Computes multivariate normal and t probabilities, quantiles,
+  random deviates and densities.",1.0-8,R (≥ 1.9.0),"stats, methods",NA
+network,network: Classes for Relational Data,OK,"Tools to create and modify network objects.  The network class can represent a range of relational data types, and supports arbitrary vertex/edge/graph attributes.",1.13.0.1,"R (≥ 2.10), utils",NA,"sna, statnet.common, testthat"
+neural,neural: Neural Networks,OK,RBF and MLP neural networks with graphical user interface,1.4.2.2,NA,NA,NA
+nloptr,nloptr: R interface to NLopt,OK,"
+    nloptr is an R interface to NLopt. NLopt is a free/open-source library for
+    nonlinear optimization, providing a common interface for a number of
+    different free optimization routines available online as well as original
+    implementations of various other algorithms.
+    See http://ab-initio.mit.edu/wiki/index.php/NLopt_Introduction for more
+    information on the available algorithms. During installation on Unix the
+    NLopt code is downloaded and compiled from the NLopt website.",1.0.4,NA,NA,testthat (≥ 0.8.1)
+NMF,"NMF: Algorithms and Framework for Nonnegative Matrix Factorization
+(NMF)",OK,"Provides a framework to perform Non-negative Matrix
+    Factorization (NMF). The package implements a set of already published algorithms
+    and seeding methods, and provides a framework to test, develop and plug
+    new/custom algorithms. Most of the built-in algorithms have been optimized
+    in C++, and the main interface function provides an easy way of performing
+    parallel computations on multicore machines.",0.21.0,"R (≥ 3.0.0), methods, utils, pkgmaker (≥ 0.20), registry, rngtools (≥ 1.2.3), cluster","graphics, stats, stringr (≥ 1.0.0), digest, grid, grDevices, gridBase, colorspace, RColorBrewer, foreach, doParallel, ggplot2, reshape2","fastICA, doMPI, bigmemory (≥ 4.2), synchronicity (≥ 1.3.2), corpcor, xtable, devtools, knitr, bibtex, RUnit, mail, Biobase"
+nortest,nortest: Tests for Normality,OK,"Five omnibus tests for testing the composite hypothesis of
+        normality.",1.0-4,NA,stats,NA
+openssl,"openssl: Toolkit for Encryption, Signatures and Certificates Based on
+OpenSSL",OK,"Bindings to OpenSSL libssl and libcrypto, plus custom SSH pubkey parsers.
+    Supports RSA, DSA and EC curves P-256, P-384 and P-521. Cryptographic signatures
+    can either be created and verified manually or via x509 certificates. AES can be
+    used in cbc, ctr or gcm mode for symmetric encryption; RSA for asymmetric (public
+    key) encryption or EC for Diffie Hellman. High-level envelope functions combine
+    RSA and AES for encrypting arbitrary sized data. Other utilities include key
+    generators, hash functions (md5, sha1, sha256, etc), base64 encoder, a secure
+    random number generator, and 'bignum' math methods for manually performing
+    crypto calculations on large multibyte integers.",1.0.2,NA,NA,"testthat, digest, knitr, rmarkdown, jsonlite, jose"
+openxlsx,"openxlsx: Read, Write and Edit XLSX Files",OK,"Simplifies the creation of Excel .xlsx files by providing a high
+    level interface to writing, styling and editing worksheets. Through the use of
+    'Rcpp', read/write times are comparable to the 'xlsx' and 'XLConnect' packages
+    with the added benefit of removing the dependency on Java.",4.1.0,R (≥ 3.3.0),"methods, Rcpp, grDevices, stats, utils, zip","knitr, testthat"
+pbivnorm,pbivnorm: Vectorized Bivariate Normal CDF,OK,"Provides a vectorized R function for calculating
+    probabilities from a standard bivariate normal CDF.",0.6.0,NA,NA,NA
+pbkrtest,"pbkrtest: Parametric Bootstrap and Kenward Roger Based Methods for Mixed
+Model Comparison",OK,"Test in mixed effects models. Attention is on mixed effects models
+    as implemented in the 'lme4' package. This package implements a parametric
+    bootstrap test and a Kenward Roger modification of F-tests for linear mixed
+    effects models and a parametric bootstrap test for generalized linear mixed
+    models.",0.4-7,"R (≥ 3.2.3), lme4 (≥ 1.1.10)","Matrix (≥ 1.2.3), parallel, MASS, methods",NA
+pkgmaker,pkgmaker: Development Utilities for R Packages,OK,"Provides some low-level utilities to use for package
+    development. It currently provides managers for multiple package specific
+    options and registries, vignette, unit test and bibtex related utilities.
+    It serves as a base package for packages like NMF, RcppOctave, doRNG, and
+    as an incubator package for other general purposes utilities, that will
+    eventually be packaged separately.
+    It is still under heavy development and changes in the interface(s) are
+    more than likely to happen.",0.27,"R (≥ 3.0.0), methods, stats, registry","tools, grDevices, utils, graphics, codetools, digest, stringi, magrittr, stringr, xtable, withr, bibtex (≥ 0.4)","devtools (≥ 0.8), roxygen2, RUnit, testthat, knitr, rmarkdown, yaml, Biobase"
+plm,plm: Linear Models for Panel Data,OK,A set of estimators and tests for panel data econometrics.,1.6-6,"R (≥ 3.1.0), Formula (≥ 0.2-0), stats","MASS, bdsmatrix, zoo, nlme, sandwich, lattice, lmtest, maxLik","AER, car, pcse, clusterSEs, clubSandwich, pglm, spdep, splm, statmod, Ecdat, pder, stargazer, texreg, foreign"
+plyr,"plyr: Tools for Splitting, Applying and Combining Data",OK,"A set of tools that solves a common set of problems: you
+    need to break a big problem down into manageable pieces, operate on each
+    piece and then put all the pieces back together.  For example, you might
+    want to fit a model to each spatial location or time point in your study,
+    summarise data by panels or collapse high-dimensional arrays to simpler
+    summary statistics. The development of 'plyr' has been generously supported
+    by 'Becton Dickinson'.",1.8.4,R (≥ 3.1.0),Rcpp (≥ 0.11.0),"abind, testthat, tcltk, foreach, doParallel, itertools, iterators, covr"
+png,png: Read and write PNG images,OK,"This package provides an easy and simple way to read, write and display bitmap images stored in the PNG format. It can read and write both files and in-memory raw vectors.",0.1-7,R (≥ 2.9.0),NA,NA
+polspline,polspline: Polynomial Spline Routines,OK,"Routines for the polynomial spline fitting routines
+  hazard regression, hazard estimation with flexible tails, logspline,
+  lspec, polyclass, and polymars, by C. Kooperberg and co-authors.",1.1.13,NA,"stats, graphics",NA
+polycor,polycor: Polychoric and Polyserial Correlations,OK,"Computes polychoric and polyserial correlations by quick ""two-step"" methods or ML, 
+  optionally with standard errors; tetrachoric and biserial correlations are special cases.",0.7-9,R (≥ 3.3.0),"stats, mvtnorm, Matrix",NA
+proto,proto: Prototype Object-Based Programming,OK,"An object oriented system using object-based, also
+	called prototype-based, rather than class-based object oriented ideas.",1.0.0,NA,NA,"testthat, covr"
+psy,psy: Various procedures used in psychometry,OK,"Kappa, ICC, Cronbach alpha, screeplot, mtmm",1.1,NA,NA,NA
+psych,"psych: Procedures for Psychological, Psychometric, and Personality
+Research",OK,"A general purpose toolbox for personality, psychometric theory and experimental psychology.   Functions are primarily for multivariate analysis and scale construction using factor analysis, principal component analysis, cluster analysis and reliability analysis, although others provide basic descriptive statistics. Item Response Theory is done using  factor analysis of tetrachoric and polychoric correlations. Functions for analyzing data at multiple levels include within and between group statistics, including correlations and factor analysis.   Functions for simulating and testing particular item and test structures are included. Several functions  serve as a useful front end for structural equation modeling.  Graphical displays of path diagrams, factor analysis and structural equation models are created using basic graphics. Some of the functions are written to support a book on psychometric theory as well as publications in personality research. For more information, see the <https://personality-project.org/r> web page.",1.8.4,R (≥ 2.10),"mnormt, parallel, stats, graphics, grDevices, methods, foreign, lattice, nlme","GPArotation, lavaan, sem, lme4, Rcsdp, graph, Rgraphviz"
+qgraph,"qgraph: Graph Plotting Methods, Psychometric Data Visualization and
+Graphical Model Estimation",OK,"Weighted network visualization and analysis, as well as Gaussian graphical model computation. See Epskamp et al. (2012) <doi:10.18637/jss.v048.i04>.",1.5,R (≥ 3.0.0),"methods, grDevices, psych, ellipse, lavaan, sem, plyr, Hmisc, igraph, jpeg, png, colorspace, Matrix, sna, corpcor, reshape2, ggplot2, glasso, huge, fdrtool, d3Network, ggm, gtools, BDgraph, parallel, pbapply, abind","RSVGTipsDevice, sendplot"
+quadprog,quadprog: Functions to solve Quadratic Programming Problems,OK,"This package contains routines and documentation for
+        solving quadratic programming problems.",1.5-5,R (≥ 2.15.0),NA,NA
+quantreg,quantreg: Quantile Regression,OK,"Estimation and inference methods for models of conditional quantiles: 
+  Linear and nonlinear parametric and non-parametric (total variation penalized) models 
+  for conditional quantiles of a univariate response and several methods for handling
+  censored survival data.  Portfolio selection methods based on expected shortfall
+  risk are also included.",5.36,"R (≥ 2.6), stats, SparseM","methods, graphics, Matrix, MatrixModels","tripack, akima, MASS, survival, rgl, logspline, nor1mix, Formula, zoo"
+R2HTML,R2HTML: HTML Exportation for R Objects,OK,"Includes HTML function and methods to write in an HTML
+        file. Thus, making HTML reports is easy. Includes a function
+        that allows redirection on the fly, which appears to be very
+        useful for teaching purpose, as the student can keep a copy of
+        the produced output to keep all that he did during the course.
+        Package comes with a vignette describing how to write HTML
+        reports for statistical analysis. Finally, a driver for 'Sweave'
+        allows to parse HTML flat files containing R code and to
+        automatically write the corresponding outputs (tables and
+        graphs).",2.3.2,R (≥ 2.0),"stats, graphics, utils, grDevices, methods","boot, splines, survival, cluster, nlme, rpart, nnet"
+R6,R6: Classes with Reference Semantics,OK,"The R6 package allows the creation of classes with reference
+    semantics, similar to R's built-in reference classes. Compared to reference
+    classes, R6 classes are simpler and lighter-weight, and they are not built
+    on S4 classes so they do not require the methods package. These classes
+    allow public and private members, and they support inheritance, even when
+    the classes are defined in different packages.",2.2.2,R (≥ 3.0),NA,"knitr, microbenchmark, pryr, testthat, ggplot2, scales"
+raster,raster: Geographic Data Analysis and Modeling,OK,"Reading, writing, manipulating, analyzing and modeling of gridded spatial data. The package implements basic and high-level functions. Processing of very large files is supported.",2.6-7,"methods, sp (≥ 1.2-0), R (≥ 3.0.0)",Rcpp,"rgdal (≥ 0.9-1), rgeos (≥ 0.3-8), ncdf4, igraph, tcltk, parallel, rasterVis, MASS, sf"
+Rcmdr,Rcmdr: R Commander,OK,"
+  A platform-independent basic-statistics GUI (graphical user interface) for R, based on the tcltk package.",2.5-0,"R (≥ 3.4.0), grDevices, graphics, methods, stats, utils, splines, RcmdrMisc (≥ 2.5-0), car (≥ 3.0-1), effects (≥
+4.0-3)","tcltk, tcltk2 (≥ 1.2-6), abind, relimp (≥ 1.0-5)","aplpack, boot, colorspace, e1071, foreign, grid, Hmisc, knitr, lattice, leaps, lmtest, markdown, MASS, mgcv, multcomp (≥ 0.991-2), nlme, nnet, nortest, readxl, rgl (≥ 0.96.0), rmarkdown (≥ 0.9.5), sem (≥ 2.1-1)"
+RcmdrMisc,RcmdrMisc: R Commander Miscellaneous Functions,OK,"
+  Various statistical, graphics, and data-management functions used by the Rcmdr package in the R Commander GUI for R. ",2.5-0,"R (≥ 3.4.0), utils, car (≥ 3.0-0), sandwich","abind, colorspace, Hmisc (≥ 4.1-0), MASS, e1071, foreign, haven, readstata13, readxl, graphics, grDevices, stats, nortest","boot, datasets"
+RColorBrewer,RColorBrewer: ColorBrewer Palettes,OK,"Provides color schemes for maps (and other graphics)
+        designed by Cynthia Brewer as described at http://colorbrewer2.org",1.1-2,R (≥ 2.0.0),NA,NA
+Rcpp,Rcpp: Seamless R and C++ Integration,OK,"The 'Rcpp' package provides R functions as well as C++ classes which
+ offer a seamless integration of R and C++. Many R data types and objects can be
+ mapped back and forth to C++ equivalents which facilitates both writing of new
+ code as well as easier integration of third-party libraries. Documentation
+ about 'Rcpp' is provided by several vignettes included in this package, via the
+ 'Rcpp Gallery' site at <http://gallery.rcpp.org>, the paper by Eddelbuettel and
+ Francois (2011, <doi:10.18637/jss.v040.i08>), the book by Eddelbuettel (2013,
+ <doi:10.1007/978-1-4614-6868-4>) and the paper by Eddelbuettel and Balamuta (2018,
+ <doi:10.1080/00031305.2017.1375990>); see 'citation(""Rcpp"")' for details.",0.12.18,R (≥ 3.0.0),"methods, utils","RUnit, inline, rbenchmark, knitr, rmarkdown, pinp, pkgKitten (≥ 0.1.2)"
+RcppArmadillo,"RcppArmadillo: 'Rcpp' Integration for the 'Armadillo' Templated Linear Algebra
+Library",OK,"'Armadillo' is a templated C++ linear algebra library (by Conrad
+ Sanderson) that aims towards a good balance between speed and ease of use. Integer,
+ floating point and complex numbers are supported, as well as a subset of
+ trigonometric and statistics functions. Various matrix decompositions are
+ provided through optional integration with LAPACK and ATLAS libraries.
+ The 'RcppArmadillo' package includes the header files from the templated
+ 'Armadillo' library. Thus users do not need to install 'Armadillo' itself in
+ order to use 'RcppArmadillo'. From release 7.800.0 on, 'Armadillo' is
+ licensed under Apache License 2; previous releases were under licensed as
+ MPL 2.0 from version 3.800.0 onwards and LGPL-3 prior to that;
+ 'RcppArmadillo' (the 'Rcpp' bindings/bridge to Armadillo) is licensed under
+ the GNU GPL version 2 or later, as is the rest of 'Rcpp'. Note that
+ Armadillo requires a fairly recent compiler; for the g++ family at least
+ version 4.6.* is required. ",0.9.100.5.0,R (≥ 3.3.0),"Rcpp (≥ 0.11.0), stats, utils, methods","RUnit, Matrix, pkgKitten, reticulate, rmarkdown, knitr, pinp, slam"
+RcppEigen,"RcppEigen: 'Rcpp' Integration for the 'Eigen' Templated Linear Algebra
+Library",OK,"R and 'Eigen' integration using 'Rcpp'.
+ 'Eigen' is a C++ template library for linear algebra: matrices, vectors,
+ numerical solvers and related algorithms.  It supports dense and sparse
+ matrices on integer, floating point and complex numbers, decompositions of
+ such matrices, and solutions of linear systems. Its performance on many
+ algorithms is comparable with some of the best implementations based on
+ 'Lapack' and level-3 'BLAS'. The 'RcppEigen' package includes the header
+ files from the 'Eigen' C++ template library (currently version 3.3.4). Thus
+ users do not need to install 'Eigen' itself in order to use 'RcppEigen'.
+ Since version 3.1.1, 'Eigen' is licensed under the Mozilla Public License
+ (version 2); earlier version were licensed under the GNU LGPL version 3 or
+ later. 'RcppEigen' (the 'Rcpp' bindings/bridge to 'Eigen') is licensed under
+ the GNU GPL version 2 or later, as is the rest of 'Rcpp'.",0.3.3.4.0,R (≥ 2.15.1),"Matrix (≥ 1.1-0), Rcpp (≥ 0.11.0), stats, utils","inline, RUnit, pkgKitten"
+RCurl,RCurl: General Network (HTTP/FTP/...) Client Interface for R,OK,"A wrapper for 'libcurl' <http://curl.haxx.se/libcurl/>
+	Provides functions to allow one to compose general HTTP requests
+        and provides convenient functions to fetch URIs, get & post
+        forms, etc. and process the results returned by the Web server.
+        This provides a great deal of control over the HTTP/FTP/...
+        connection and the form of the request while providing a
+        higher-level interface than is available just using R socket
+        connections.  Additionally, the underlying implementation is
+        robust and extensive, supporting FTP/FTPS/TFTP (uploads and
+        downloads), SSL/HTTPS, telnet, dict, ldap, and also supports
+        cookies, redirects, authentication, etc.",1.95-4.11,"R (≥ 3.0.0), methods, bitops",NA,"Rcompression, XML"
+readxl,readxl: Read Excel Files,OK,"Import excel files into R. Supports '.xls' via the embedded
+    'libxls' C library <https://github.com/evanmiller/libxls> and '.xlsx' via
+    the embedded 'RapidXML' C++ library <https://rapidxml.sourceforge.net>.
+    Works on Windows, Mac and Linux without external dependencies.",1.1.0,NA,"cellranger, Rcpp (≥ 0.12.12), tibble (≥ 1.1)","covr, knitr, rmarkdown, rprojroot (≥ 1.1), testthat"
+registry,registry: Infrastructure for R Package Registries,OK,Provides a generic infrastructure for creating and using registries.,0.5,R (≥ 2.6.0),utils,NA
+relimp,relimp: Relative Contribution of Effects in a Regression Model,OK,"Functions to facilitate inference on the relative importance of predictors in a linear or generalized linear model, and a couple of useful Tcl/Tk widgets.",1.0-5,R (≥ 2.0.0),"stats, utils","tcltk, nnet, MASS, Rcmdr"
+reshape2,reshape2: Flexibly Reshape Data: A Reboot of the Reshape Package,OK,"Flexibly restructure and aggregate data using just two
+    functions: melt and 'dcast' (or 'acast').",1.4.3,R (≥ 3.1),"plyr (≥ 1.8.1), Rcpp, stringr","covr, lattice, testthat (≥ 0.8.0)"
+rgl,rgl: 3D Visualization Using OpenGL,OK,"Provides medium to high level functions for 3D interactive graphics, including
+    functions modelled on base graphics (plot3d(), etc.) as well as functions for
+    constructing representations of geometric objects (cube3d(), etc.).  Output
+    may be on screen using OpenGL, or to various standard 3D file formats including
+    WebGL, PLY, OBJ, STL as well as 2D image formats, including PNG, Postscript, SVG, PGF.",0.99.16,R (≥ 3.2.0),"graphics, grDevices, stats, utils, htmlwidgets, htmltools, knitr, jsonlite (≥ 0.9.20), shiny, magrittr, crosstalk, manipulateWidget (≥ 0.9.0)","MASS, rmarkdown, deldir, orientlib, lattice, misc3d, rstudioapi, magick"
+rJava,rJava: Low-Level R to Java Interface,OK,"Low-level interface to Java VM very much like .C/.Call and friends. Allows creation of objects, calling methods and accessing fields.",0.9-10,"R (≥ 2.5.0), methods",NA,NA
+rjson,rjson: JSON for R,OK,Converts R object into JSON objects and vice-versa.,0.2.20,R (≥ 3.1.0),NA,NA
+rmarkdown,rmarkdown: Dynamic Documents for R,OK,Convert R Markdown documents into a variety of formats.,1.10,R (≥ 3.0),"tools, utils, knitr (≥ 1.18), yaml (≥ 2.1.5), htmltools (≥
+0.3.5), evaluate (≥ 0.8), base64enc, jsonlite, rprojroot, mime, tinytex (≥ 0.3), methods, stringr (≥ 1.2.0)","shiny (≥ 0.11), tufte, testthat, digest, dygraphs, tibble"
+rms,rms: Regression Modeling Strategies,OK,"Regression modeling, testing, estimation, validation,
+	graphics, prediction, and typesetting by storing enhanced model design
+	attributes in the fit.  'rms' is a collection of functions that
+	assist with and streamline modeling.  It also contains functions for
+	binary and ordinal logistic regression models, ordinal models for
+  continuous Y with a variety of distribution families, and the Buckley-James
+	multiple regression model for right-censored responses, and implements
+	penalized maximum likelihood estimation for logistic and ordinary
+	linear models.  'rms' works with almost any regression model, but it
+	was especially written to work with binary or ordinal regression
+	models, Cox regression, accelerated failure time models,
+	ordinary linear models,	the Buckley-James model, generalized least
+	squares for serially or spatially correlated observations, generalized
+	linear models, and quantile regression.",5.1-2,"Hmisc (≥ 4.1-0), survival (≥ 2.40-1), lattice, ggplot2 (≥
+2.2), SparseM","methods, quantreg, rpart, nlme (≥ 3.1-123), polspline, multcomp, htmlTable (≥ 1.11.0), htmltools","boot, tcltk, plotly (≥ 4.5.6)"
+rngtools,rngtools: Utility Functions for Working with Random Number Generators,OK,"Provides a set of functions for working with
+    Random Number Generators (RNGs). In particular, a generic
+    S4 framework is defined for getting/setting the current RNG, or RNG data
+    that are embedded into objects for reproducibility.
+    Notably, convenient default methods greatly facilitate the way current
+    RNG settings can be changed.",1.3.1,"R (≥ 3.0.0), methods, pkgmaker (≥ 0.20)","stringr, digest, utils, stats, parallel","RUnit, testthat"
+ROAuth,ROAuth: R Interface For OAuth,OK,"Provides an interface to the OAuth 1.0 specification
+        allowing users to authenticate via OAuth to the
+        server of their choice.",0.9.6,R (≥ 2.12.0),"RCurl, digest, methods",NA
+rockchalk,rockchalk: Regression Estimation and Presentation,OK,"A collection of functions for interpretation and presentation
+    of regression analysis.  These functions are used
+    to produce the statistics lectures in
+    <http://pj.freefaculty.org/guides>. Includes regression
+    diagnostics, regression tables, and plots of interactions and
+    ""moderator"" variables. The emphasis is on ""mean-centered"" and
+    ""residual-centered"" predictors. The vignette 'rockchalk' offers a
+    fairly comprehensive overview.  The vignette 'Rstyle' has advice
+    about coding in R.  The package title 'rockchalk' refers to our
+    school motto, 'Rock Chalk Jayhawk, Go K.U.'.",1.8.111,R (≥ 2.10),"grDevices, methods, lme4, car, MASS","tables, Hmisc"
+RODBC,RODBC: ODBC Database Access,OK,An ODBC database interface.,1.3-15,R (≥ 3.0.0),stats,NA
+rpart,rpart: Recursive Partitioning and Regression Trees,OK,"Recursive partitioning for classification, 
+  regression and survival trees.  An implementation of most of the 
+  functionality of the 1984 book by Breiman, Friedman, Olshen and Stone.",4.1-13,"R (≥ 2.15.0), graphics, stats, grDevices",NA,survival
+rprojroot,rprojroot: Finding Files in Project Subdirectories,OK,"Robust, reliable and flexible paths to files below a
+    project root. The 'root' of a project is defined as a directory
+    that matches a certain criterion, e.g., it contains a certain
+    regular file.",1.3-2,R (≥ 3.0.0),backports,"testthat, mockr, knitr, withr, rmarkdown"
+Rsolnp,Rsolnp: General Non-Linear Optimization,OK,General Non-linear Optimization Using Augmented Lagrange Multiplier Method.,1.16,R (≥ 2.10.0),"truncnorm, parallel, stats",NA
+sandwich,sandwich: Robust Covariance Matrix Estimators,OK,"Model-robust standard error estimators for cross-sectional, time series, clustered, panel, and longitudinal data.",2.5-0,R (≥ 2.10.0),"stats, utils, zoo","AER, car, geepack, lattice, lmtest, MASS, multiwayvcov, parallel, pcse, plm, pscl, scatterplot3d, stats4, strucchange, survival"
+scales,scales: Scale Functions for Visualization,OK,"Graphical scales map data to aesthetics, and provide
+    methods for automatically determining breaks and labels
+    for axes and legends.",1.0.0,R (≥ 3.1),"labeling, munsell (≥ 0.5), R6, RColorBrewer, Rcpp, viridisLite","dichromat, bit64, covr, hms, testthat (≥ 2.0)"
+scatterplot3d,scatterplot3d: 3D Scatter Plot,OK,Plots a three dimensional (3D) point cloud.,0.3-41,R (≥ 2.7.0),"grDevices, graphics, stats",NA
+sem,sem: Structural Equation Models,OK,"Functions for fitting general linear structural
+    equation models (with observed and latent variables) using the RAM approach, 
+    and for fitting structural equations in observed-variable models by two-stage least squares.",3.1-9,"R (≥ 2.14.0), stats","matrixcalc, MASS, boot, mi (≥ 0.9-99), utils","polycor, MBESS, DiagrammeR"
+semPlot,"semPlot: Path Diagrams and Visual Analysis of Various SEM Packages'
+Output",OK,Path diagrams and visual analysis of various SEM packages' output.,1.1,R (≥ 2.15.0),"qgraph (≥ 1.2.4), lavaan (≥ 0.5-11), sem (≥ 3.1-0), plyr, XML, igraph (≥ 0.6-3), lisrelToR, rockchalk, colorspace, corpcor, methods, semTools, OpenMx",MplusAutomation (≥ 0.5-3)
+semTools,semTools: Useful Tools for Structural Equation Modeling,OK,Provides useful tools for structural equation modeling.,0.5-0,"R (≥ 3.3), utils, stats, graphics, lavaan (≥ 0.6.1)",methods,"MASS, foreign, parallel, boot, Amelia, mice, GPArotation, mnormt, OpenMx"
+setRNG,setRNG: Set (Normal) Random Number Generator and Seed,OK,"SetRNG provides utilities to help set and record the setting of
+	the seed and the uniform and normal generators used when a random
+	experiment is run. The utilities can be used in other functions 
+	that do random experiments to simplify recording and/or setting all the 
+	necessary information for reproducibility. 
+	See the vignette and reference manual for examples.",2013.9-1,R (≥ 2.5.0),NA,NA
+sf,sf: Simple Features for R,OK,"Support for simple features, a standardized way to encode spatial vector data. Binds
+	to 'GDAL' for reading and writing data, to 'GEOS' for geometrical operations, and to 'PROJ' for projection
+	conversions and datum transformations.",0.6-3,"R (≥ 3.3.0), methods","utils, stats, tools, graphics, grDevices, grid, Rcpp, DBI (≥
+0.8), units (≥ 0.5-1), classInt, magrittr","lwgeom (≥ 0.1-2), maps, rgdal, rgeos, sp (≥ 1.2-4), raster, spatstat, tmap, maptools, RSQLite, tibble (≥ 1.4.1), pillar, rlang, dplyr (≥ 0.7-0), tidyr (≥ 0.7-2), RPostgreSQL, RPostgres (≥ 1.1.0), odbc, tidyselect, ggplot2, mapview, testthat, knitr, covr, microbenchmark, rmarkdown"
+sfsmisc,sfsmisc: Utilities from 'Seminar fuer Statistik' ETH Zurich,OK,"Useful utilities ['goodies'] from Seminar fuer Statistik ETH Zurich,
+   some of which were ported from S-plus in the 1990's.
+ For graphics, have pretty (Log-scale) axes, an enhanced Tukey-Anscombe
+   plot, combining histogram and boxplot, 2d-residual plots, a 'tachoPlot()',
+   pretty arrows, etc.
+ For robustness, have a robust F test and robust range().
+ For system support, notably on Linux, provides 'Sys.*()' functions with
+   more access to system and CPU information.
+ Finally, miscellaneous utilities such as simple efficient prime numbers,
+   integer codes, Duplicated(), toLatex.numeric() and is.whole().",1.1-2,R (≥ 3.2.0),"grDevices, methods, utils, stats","datasets, tcltk, cluster, lattice, MASS, Matrix, nlme, lokern"
+shiny,shiny: Web Application Framework for R,OK,"Makes it incredibly easy to build interactive web
+    applications with R. Automatic ""reactive"" binding between inputs and
+    outputs and extensive prebuilt widgets make it possible to build
+    beautiful, responsive, and powerful applications with minimal effort.",1.1.0,"R (≥ 3.0.2), methods","utils, grDevices, httpuv (≥ 1.4.3), mime (≥ 0.3), jsonlite (≥ 0.9.16), xtable, digest, htmltools (≥ 0.3.5), R6 (≥ 2.0), sourcetools, later (≥ 0.7.2), promises (≥ 1.0.1), tools, crayon, rlang","datasets, Cairo (≥ 1.5-5), testthat, knitr (≥ 1.6), markdown, rmarkdown, ggplot2, magrittr"
+sna,sna: Tools for Social Network Analysis,OK,"A range of tools for social network analysis, including node and graph-level indices, structural distance and covariance methods, structural equivalence detection, network regression, random graph generation, and 2D/3D network visualization.",2.4,"R (≥ 2.0.0), utils, statnet.common, network",NA,"rgl, numDeriv, SparseM"
+som,som: Self-Organizing Map,OK,Self-Organizing Map (with application in gene clustering).,0.3-5.1,R (≥ 2.10),NA,NA
+sourcetools,"sourcetools: Tools for Reading, Tokenizing and Parsing R Code",OK,"Tools for the reading and tokenization of R code. The
+    'sourcetools' package provides both an R and C++ interface for the tokenization
+    of R code, and helpers for interacting with the tokenized representation of R
+    code.",0.1.7,R (≥ 3.0.2),NA,testthat
+sp,sp: Classes and Methods for Spatial Data,OK,"Classes and methods for spatial
+  data; the classes document where the spatial location information
+  resides, for 2D or 3D data. Utility functions are provided, e.g. for
+  plotting data as maps, spatial selection, as well as methods for
+  retrieving coordinates, for subsetting, print, summary, etc.",1.3-1,"R (≥ 3.0.0), methods","utils, stats, graphics, grDevices, lattice, grid","RColorBrewer, rgdal (≥ 0.8-7), rgeos (≥ 0.3-13), gstat, maptools, deldir"
+SparseM,SparseM: Sparse Linear Algebra,OK,"Some basic linear algebra functionality for sparse matrices is
+  provided:  including Cholesky decomposition and backsolving as well as 
+  standard R subsetting and Kronecker products.",1.77,"R (≥ 2.15), methods","graphics, stats, utils",NA
+stabledist,stabledist: Stable Distribution Functions,OK,"Density, Probability and Quantile functions, and random number
+  generation for (skew) stable distributions, using the parametrizations of
+  Nolan.",0.7-1,R (≥ 3.1.0),stats,"Matrix, fBasics, FMStable, RUnit, Rmpfr, sfsmisc"
+statmod,statmod: Statistical Modeling,OK,"A collection of algorithms and functions to aid statistical modeling. Includes growth curve comparisons, limiting dilution analysis (aka ELDA), mixed linear models, heteroscedastic regression, inverse-Gaussian probability calculations, Gauss quadrature and a secure convergence algorithm for nonlinear models.  Includes advanced generalized linear model functions that implement secure convergence, dispersion modeling and Tweedie power-law families. ",1.4.30,R (≥ 1.6.1),"stats, graphics","MASS, tweedie"
+statnet.common,"statnet.common: Common R Scripts and Utilities Used by the Statnet Project
+Software",OK,Non-statistical utilities used by the software developed by the Statnet Project. They may also be of use to others.,4.1.4,NA,"utils, methods, coda",covr
+streamR,streamR: Access to Twitter Streaming API via R,OK,"Functions to access Twitter's filter, sample, and user streams, and to
+    parse the output into data frames.",0.4.4,"R (≥ 2.12.0), RCurl, rjson, ndjson",NA,ROAuth (≥ 0.9.0)
+stringi,stringi: Character String Processing Facilities,OK,"Allows for fast, correct, consistent, portable,
+    as well as convenient character string/text processing in every locale
+    and any native encoding. Owing to the use of the 'ICU' library,
+    the package provides 'R' users with platform-independent functions
+    known to 'Java', 'Perl', 'Python', 'PHP', and 'Ruby' programmers. Available
+    features include: pattern searching (e.g., with 'Java'-like regular
+    expressions or the 'Unicode' collation algorithm), random string generation,
+    case mapping, string transliteration, concatenation,
+    Unicode normalization, date-time formatting and parsing, and many more.",1.2.4,R (≥ 2.14),"tools, utils, stats",NA
+stringr,"stringr: Simple, Consistent Wrappers for Common String Operations",OK,"A consistent, simple and easy to use set of wrappers around the
+    fantastic 'stringi' package. All function and argument names (and positions)
+    are consistent, all functions deal with ""NA""'s and zero length vectors
+    in the same way, and the output from one function is easy to feed into
+    the input of another.",1.3.1,R (≥ 3.1),"glue (≥ 1.2.0), magrittr, stringi (≥ 1.1.7)","covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat"
+strucchange,"strucchange: Testing, Monitoring, and Dating Structural Changes",OK,"Testing, monitoring and dating structural changes in (linear)
+             regression models. strucchange features tests/methods from
+	     the generalized fluctuation test framework as well as from
+	     the F test (Chow test) framework. This includes methods to
+	     fit, plot and test fluctuation processes (e.g., CUSUM, MOSUM,
+	     recursive/moving estimates) and F statistics, respectively.
+             It is possible to monitor incoming data online using
+             fluctuation processes.
+             Finally, the breakpoints in regression models with structural
+             changes can be estimated together with confidence intervals.
+             Emphasis is always given to methods for visualizing the data.",1.5-1,"R (≥ 2.10.0), zoo, sandwich","graphics, stats","stats4, car, dynlm, e1071, foreach, lmtest, mvtnorm, tseries"
+survey,survey: Analysis of Complex Survey Samples,OK,"Summary statistics, two-sample tests, rank tests, generalised linear models, cumulative link models, Cox models, loglinear models, and general maximum pseudolikelihood estimation for multistage stratified, cluster-sampled, unequally weighted survey samples. Variances by Taylor series linearisation or replicate weights. Post-stratification, calibration, and raking. Two-phase subsampling designs. Graphics. PPS sampling without replacement. Principal components, factor analysis.",3.33-2,"R (≥ 2.16.0), grid, methods, Matrix, survival","stats, graphics, splines, lattice","foreign, MASS, KernSmooth, hexbin, mitools, RSQLite, RODBC, quantreg, parallel, CompQuadForm, DBI"
+systemfit,systemfit: Estimating Systems of Simultaneous Equations,OK,"Econometric estimation of simultaneous
+ systems of linear and nonlinear equations using Ordinary Least
+ Squares (OLS), Weighted Least Squares (WLS), Seemingly Unrelated
+ Regressions (SUR), Two-Stage Least Squares (2SLS), Weighted
+ Two-Stage Least Squares (W2SLS), and Three-Stage Least Squares (3SLS).",1.1-22,"R (≥ 3.2.0), Matrix, car (≥ 2.0-0), lmtest","stats (≥ 2.14.0), sandwich (≥ 2.2-9), MASS, methods","plm (≥ 1.0-1), sem (≥ 2.0-0)"
+tcltk2,tcltk2: Tcl/Tk Additions,OK,"A series of additional Tcl commands and Tk widgets with style
+  and various functions (under Windows: DDE exchange, access to the
+  registry and icon manipulation) to supplement the tcltk package",1.2-11,"R (≥ 2.8.0), tcltk",NA,utils
+tfplot,tfplot: Time Frame User Utilities,OK,"Utilities for simple manipulation and quick  	
+	plotting of time series data. These utilities use the tframe package
+	which provides a programming kernel for time series. Extensions to
+	tframe provided in tframePlus can also be used. See the Guide vignette
+	for examples.",2015.12-1,"R (≥ 2.12.0), tframe","stats, graphics, grDevices",googleVis
+tframe,tframe: Time Frame Coding Kernel,OK,"A kernel of functions for programming 
+	time series methods in a way that is relatively independently of the 
+	representation of time. Also provides plotting, time windowing, 
+	and some
+	other utility functions which are specifically intended for time series.
+	See the Guide distributed as a vignette, or ?tframe.Intro for more
+	details. (User utilities are in package tfplot.)",2015.12-1,R (≥ 2.5.0),stats,NA
+TH.data,TH.data: TH's Data Archive,OK,"Contains data sets used in other packages Torsten Hothorn
+  maintains.",1.0-9,"R (≥ 2.10.0), survival, MASS",NA,"dplyr, gdata, plyr"
+tibble,tibble: Simple Data Frames,OK,"Provides a 'tbl_df' class (the 'tibble') that provides
+    stricter checking and better formatting than the traditional data frame.",1.4.2,R (≥ 3.1.0),"cli, crayon, methods, pillar (≥ 1.1.0), rlang, utils","covr, dplyr, import, knitr (≥ 1.5.32), microbenchmark, mockr, nycflights13, rmarkdown, testthat, withr"
+tidyverse,tidyverse: Easily Install and Load the 'Tidyverse',OK,"The 'tidyverse' is a set of packages that work in harmony
+    because they share common data representations and 'API' design. This
+    package is designed to make it easy to install and load multiple
+    'tidyverse' packages in a single step. Learn more about the 'tidyverse'
+    at <https://tidyverse.org>.",1.2.1,NA,"broom (≥ 0.4.2), cli (≥ 1.0.0), crayon (≥ 1.3.4), dplyr (≥
+0.7.4), dbplyr (≥ 1.1.0), forcats (≥ 0.2.0), ggplot2 (≥
+2.2.1), haven (≥ 1.1.0), hms (≥ 0.3), httr (≥ 1.3.1), jsonlite (≥ 1.5), lubridate (≥ 1.7.1), magrittr (≥ 1.5), modelr (≥ 0.1.1), purrr (≥ 0.2.4), readr (≥ 1.1.1), readxl (≥ 1.0.0), reprex (≥ 0.1.1), rlang (≥ 0.1.4), rstudioapi (≥
+0.7), rvest (≥ 0.3.2), stringr (≥ 1.2.0), tibble (≥ 1.3.4), tidyr (≥ 0.7.2), xml2 (≥ 1.1.1)","feather (≥ 0.3.1), knitr (≥ 1.17), rmarkdown (≥ 1.7.4)"
+timeDate,timeDate: Rmetrics - Chronological and Calendar Objects,OK,"The 'timeDate' class fulfils the conventions of the ISO 8601 
+	standard as well as of the ANSI C and POSIX standards. Beyond
+	these standards it provides the ""Financial Center"" concept
+	which allows to handle data records collected in different time 
+	zones and mix them up to have always the proper time stamps with 
+	respect to your personal financial center, or alternatively to the GMT
+	reference time. It can thus also handle time stamps from historical 
+	data records from the same time zone, even if the financial 
+	centers changed day light saving times at different calendar
+	dates.",3043.102,"R (≥ 2.15.1), graphics, utils, stats, methods",NA,"date, RUnit"
+timeSeries,timeSeries: Rmetrics - Financial Time Series Objects,OK,"Provides a class and various tools for financial time series.
+	This includes basic functions such as scaling and sorting, subsetting,
+	mathematical operations and statistical functions.",3042.102,"R (≥ 2.10), graphics, grDevices, stats, methods, utils, timeDate (≥ 2150.95)",NA,"RUnit, robustbase, xts, PerformanceAnalytics, fTrading"
+truncnorm,truncnorm: Truncated Normal Distribution,OK,"Density, probability, quantile and random number
+        generation functions for the truncated normal distribution.",1.0-8,R (≥ 3.4.0),NA,testthat
+tseries,tseries: Time Series Analysis and Computational Finance,OK,Time series analysis and computational finance.,0.10-45,R (≥ 2.10.0),"graphics, stats, utils, quadprog, zoo, quantmod (≥ 0.4-9)",NA
+twitteR,twitteR: R Based Twitter Client,OK,Provides an interface to the Twitter web API.,1.1.9,R (≥ 2.12.0),"methods, bit64, rjson, DBI (≥ 0.3.1), httr (≥ 1.0.0)","RSQLite, RMySQL"
+ucminf,ucminf: General-Purpose Unconstrained Non-Linear Optimization,OK,"An algorithm for general-purpose unconstrained non-linear optimization.
+             The algorithm is of quasi-Newton type with BFGS updating of the inverse
+             Hessian and soft line search with a trust region type monitoring of the
+             input to the line search algorithm. The interface of 'ucminf' is
+             designed for easy interchange with 'optim'.",1.1-4,NA,NA,numDeriv
+urca,urca: Unit Root and Cointegration Tests for Time Series Data,OK,"Unit root and cointegration tests encountered in applied 
+ econometric analysis are implemented.",1.3-0,"R (≥ 2.0.0), methods","nlme, graphics, stats",NA
+vars,vars: VAR Modelling,OK,"Estimation, lag selection, diagnostic testing, forecasting, causality analysis, forecast error variance decomposition and impulse response functions of VAR models and estimation of SVAR and SVEC models.",1.5-3,"R (≥ 2.0.0), MASS, strucchange, urca (≥ 1.1-6), lmtest (≥
+0.9-26), sandwich (≥ 2.2-4)",NA,NA
+vcd,vcd: Visualizing Categorical Data,OK,"Visualization techniques, data sets, summary and inference
+        procedures aimed particularly at categorical data. Special
+        emphasis is given to highly extensible grid graphics. The
+        package was package was originally inspired by the book 
+	""Visualizing Categorical Data"" by Michael Friendly and is 
+	now the main support package for a new book, 
+	""Discrete Data Analysis with R"" by Michael Friendly and 
+	David Meyer (2015).",1.4-4,"R (≥ 2.4.0), grid","stats, utils, MASS, grDevices, colorspace, lmtest","KernSmooth, mvtnorm, kernlab, HSAUR, coin"
+viridis,viridis: Default Color Maps from 'matplotlib',OK,"Implementation of the 'viridis' - the default -, 'magma', 'plasma', 
+    'inferno', and 'cividis' color maps for 'R'. 'viridis', 'magma', 'plasma', 
+    and 'inferno' are ported from 'matplotlib' <http://matplotlib.org/>, a 
+    popular plotting library for 'python'. 'cividis', was developed by Jamie R. 
+    Nuñez and Sean M. Colby. These color maps are designed in such a way that 
+    they will analytically be perfectly perceptually-uniform, both in regular 
+    form and also when converted to black-and-white. They are also designed to 
+    be perceived by readers with the most common form of color blindness (all 
+    color maps in this package) and color vision deficiency ('cividis' only). ",0.5.1,"R (≥ 2.10), viridisLite (≥ 0.3.0)","stats, ggplot2 (≥ 1.0.1), gridExtra","hexbin (≥ 1.27.0), scales, MASS, knitr, dichromat, colorspace, rasterVis, httr, mapproj, vdiffr, svglite (≥
+1.2.0), testthat, covr, rmarkdown, rgdal"
+whisker,"whisker: {{mustache}} for R, logicless templating",OK,"logicless templating, reuse templates in many programming
+        languages including R",0.3-2,NA,NA,markdown
+XLConnect,XLConnect: Excel Connector for R,OK,"Provides comprehensive functionality to read, write and format Excel data.",0.2-15,"R (≥ 2.10.0), XLConnectJars (== 0.2-15)","methods, rJava","RUnit, lattice, ggplot2 (≥ 0.9.3), zoo"
+XLConnectJars,XLConnectJars: JAR Dependencies for the XLConnect Package,OK,Provides external JAR dependencies for the XLConnect package.,0.2-15,NA,rJava,NA
+xlsx,"xlsx: Read, Write, Format Excel 2007 and Excel 97/2000/XP/2003 Files",OK,Provide R functions to read/write/format Excel 2007 and Excel 97/2000/XP/2003 file formats.,0.6.1,NA,"rJava, xlsxjars, grDevices, utils",NA
+xlsxjars,xlsxjars: Package required POI jars for the xlsx package,OK,"The xlsxjars package collects all the external jars
+  required for the xlxs package. This release corresponds to POI
+  3.10.1.",0.6.1,rJava,NA,NA
+XML,XML: Tools for Parsing and Generating XML Within R and S-Plus,OK,"Many approaches for both reading and
+        creating XML (and HTML) documents (including DTDs), both local
+        and accessible via HTTP or FTP.  Also offers access to an
+        'XPath' ""interpreter"".",3.98-1.16,"R (≥ 2.13.0), methods, utils",NA,"bitops, RCurl"
+xtable,xtable: Export Tables to LaTeX or HTML,OK,Coerce data to LaTeX and HTML tables.,1.8-2,R (≥ 2.10.0),"stats, utils","knitr, lsmeans, spdep, splm, sphet, plm, zoo, survival"
+yaml,yaml: Methods to Convert R Data to YAML and Back,OK,"Implements the 'libyaml' 'YAML' 1.1 parser and emitter
+  (<http://pyyaml.org/wiki/LibYAML>) for R.",2.2.0,NA,NA,RUnit
+zoo,"zoo: S3 Infrastructure for Regular and Irregular Time Series (Z's
+Ordered Observations)",OK,"An S3 class with methods for totally ordered indexed
+             observations. It is particularly aimed at irregular time series
+             of numeric vectors/matrices and factors. zoo's key design goals
+             are independence of a particular index/date/time class and
+             consistency with ts and base R by providing methods to extend
+             standard generics.",1.8-3,"R (≥ 3.1.0), stats","utils, graphics, grDevices, lattice (≥ 0.20-27)","coda, chron, DAAG, fts, ggplot2, mondate, scales, strucchange, timeDate, timeSeries, tis, tseries, xts"
