@@ -1,0 +1,13 @@
+Package: myutils
+Type: Package
+Title: Utility functions for package management
+Version: 0.1.0
+Author: Kenji Sato
+Maintainer: Kenji Sato <mail@kenjisato.jp>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports: readr, readxl
+RoxygenNote: 6.1.0
